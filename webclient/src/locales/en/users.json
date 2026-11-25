@@ -1,0 +1,243 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "edit": "Edit",
+    "saving": "Saving..."
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "banned": "Banned"
+  },
+  "roles": {
+    "superadmin": "Super Admin",
+    "admin": "Admin",
+    "editor": "Editor",
+    "moderator": "Moderator",
+    "author": "Author",
+    "member": "Member",
+    "user": "User",
+    "viewer": "Viewer",
+    "guest": "Guest"
+  },
+  "permissions": {
+    "title": "Resource Permissions",
+    "subtitle": "Control what <strong>{{name}}</strong> can do directly.",
+    "save": "Save Permissions",
+    "table": {
+      "resource": "Resource"
+    },
+    "actions": {
+      "create": "Create",
+      "update": "Update",
+      "delete": "Delete"
+    },
+    "resources": {
+      "projects": "Projects",
+      "categories": "Categories",
+      "tags": "Tags",
+      "team_members": "Team Members",
+      "blog_posts": "Blog Posts",
+      "media": "Media Library",
+      "docs": "Documentation"
+    }
+  },
+  "publicProfile": {
+    "pageTitle": "{{name}} (@{{username}}) | APEX",
+    "fallbackTitle": "Member profile – APEX",
+    "loading": "Loading profile…",
+    "notFoundTitle": "Profile not found",
+    "notFoundMessage": "This username does not exist or the account is not active.",
+    "loadFailedTitle": "Could not load profile",
+    "loadFailedMessage": "The server had a problem loading this profile. Refresh the page or try again in a moment.",
+    "joined": "Joined {{date}}",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "tabs": {
+      "posts": "Blog posts",
+      "projects": "Projects"
+    },
+    "filters": {
+      "all": "All",
+      "uncategorized": "Uncategorized"
+    },
+    "badges": {
+      "series": "Series",
+      "collection": "Collection"
+    },
+    "empty": {
+      "postsTitle": "No published posts yet",
+      "postsMessage": "When this member publishes articles, they will appear here.",
+      "projectsTitle": "No projects yet",
+      "projectsMessage": "Projects created or attributed to this member will show up here."
+    }
+  },
+  "admin": {
+    "title": "Users",
+    "subtitle": "Manage all registered users and their permissions",
+    "addUser": "Add User",
+    "stats": {
+      "totalUsers": "Total Users",
+      "newThisMonth": "New This Month"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by name, username, or email...",
+      "allRoles": "All Roles",
+      "allStatus": "All Status"
+    },
+    "actions": {
+      "deleteSelected": "Delete ({{count}})"
+    },
+    "table": {
+      "user": "User",
+      "role": "Role",
+      "status": "Status",
+      "joined": "Joined",
+      "actions": "Actions",
+      "loading": "Loading users...",
+      "empty": "No users found"
+    },
+    "createModal": {
+      "title": "Add New User",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "username": "Username",
+      "usernamePlaceholder": "johndoe",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••••••",
+      "role": "Role",
+      "selectRole": "Select a role",
+      "creating": "Creating...",
+      "submit": "Create User"
+    },
+    "deleteModal": {
+      "title": "Delete User",
+      "confirmMessage": "Are you sure you want to delete <strong>{{name}}</strong>? This action cannot be undone."
+    },
+    "confirm": {
+      "bulkDelete": "Delete {{count}} users?"
+    },
+    "toasts": {
+      "userActivated": "User activated",
+      "userDeactivated": "User deactivated",
+      "updateFailed": "Failed to update user",
+      "userCreated": "User created successfully!",
+      "createFailed": "Failed to create user",
+      "userDeleted": "User deleted successfully",
+      "deleteFailed": "Failed to delete user",
+      "bulkDeleted": "{{count}} users deleted",
+      "bulkDeleteFailed": "Some deletions failed"
+    }
+  },
+  "edit": {
+    "notFound": "User not found",
+    "backToUsers": "Back to Users",
+    "breadcrumbUsers": "Users",
+    "breadcrumbEdit": "Edit User",
+    "card": {
+      "joined": "Joined",
+      "status": "Status",
+      "bio": "Bio"
+    },
+    "actions": {
+      "activateUser": "Activate User",
+      "deactivateUser": "Deactivate User",
+      "deleteUser": "Delete User"
+    },
+    "form": {
+      "title": "User Information",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter full name",
+      "username": "Username",
+      "usernamePlaceholder": "unique_handle",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter email",
+      "role": "Role",
+      "selectRole": "Select role",
+      "saveChanges": "Save Changes"
+    },
+    "deleteModal": {
+      "title": "Delete User",
+      "confirmMessage": "Are you sure you want to delete <strong>{{name}}</strong>?"
+    },
+    "toasts": {
+      "permissionsSaved": "Permissions saved successfully!",
+      "permissionsSaveFailed": "Failed to save permissions",
+      "userUpdated": "User updated successfully!",
+      "updateFailed": "Failed to update",
+      "userActivated": "User activated",
+      "userDeactivated": "User deactivated",
+      "updateUserFailed": "Failed to update user",
+      "userDeleted": "User deleted successfully",
+      "deleteFailed": "Failed to delete user"
+    }
+  },
+  "profile": {
+    "avatarAlt": "Profile",
+    "avatarFallbackInitial": "U",
+    "avatar": {
+      "change": "Change",
+      "uploading": "Uploading..."
+    },
+    "tabs": {
+      "editProfile": "Edit Profile",
+      "passwordSecurity": "Password & Security"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "username": "Username",
+      "bio": "Bio",
+      "bioPlaceholder": "A short description about yourself...",
+      "githubUrl": "GitHub URL",
+      "githubPlaceholder": "https://github.com/...",
+      "linkedinUrl": "LinkedIn URL",
+      "linkedinPlaceholder": "https://linkedin.com/in/..."
+    },
+    "actions": {
+      "saveProfile": "Save Profile"
+    },
+    "password": {
+      "current": "Current Password",
+      "new": "New Password",
+      "confirm": "Confirm New Password",
+      "changing": "Changing Password...",
+      "submit": "Change Password"
+    },
+    "toasts": {
+      "avatarUpdated": "Avatar updated successfully!",
+      "avatarUploadFailed": "Failed to upload avatar",
+      "profileUpdated": "Profile updated successfully!",
+      "profileUpdateFailed": "Failed to update profile",
+      "passwordMismatch": "Password confirmation does not match",
+      "passwordChanged": "Password changed successfully!",
+      "passwordChangeFailed": "Failed to change password"
+    }
+  },
+  "memberSettings": {
+    "title": "Settings",
+    "appearance": {
+      "title": "Appearance",
+      "darkMode": "Dark Mode",
+      "darkModeDescription": "Toggle between light and dark theme"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Stay updated with your latest alerts and activities",
+    "markAllRead": "Mark all as read",
+    "defaultTitle": "Notification",
+    "empty": {
+      "title": "No notifications yet",
+      "message": "When you receive alerts or updates, they will appear here."
+    },
+    "actions": {
+      "markAsRead": "Mark as read"
+    }
+  }
+}

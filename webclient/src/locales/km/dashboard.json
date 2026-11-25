@@ -1,0 +1,51 @@
+{
+  "title": "ផ្ទាំងគ្រប់គ្រង",
+  "welcome": "សូមស្វាគមន៍មកវិញ, {{name}}",
+  "overview": "ទិដ្ឋភាពទូទៅ",
+  "trendsTitle": "និន្នាការសកម្មភាព ៦ ខែ",
+  "loadingChart": "កំពុងផ្ទុកក្រាហ្វ...",
+  "recentActivity": "សកម្មភាពថ្មីៗ",
+  "viewAllLogs": "មើលកំណត់ហេតុទាំងអស់ →",
+  "noRecentActivity": "មិនមានសកម្មភាពថ្មីៗទេ។",
+  "system": "ប្រព័ន្ធ",
+  "actions": {
+    "refresh": "ផ្ទុកឡើងវិញ",
+    "refreshing": "កំពុងផ្ទុកឡើងវិញ...",
+    "retry": "ព្យាយាមម្តងទៀត"
+  },
+  "errors": {
+    "loadFailed": "មិនអាចផ្ទុកទិន្នន័យផ្ទាំងគ្រប់គ្រងពីម៉ាស៊ីនមេបានទេ។"
+  },
+  "stats": {
+    "totalUsers": "អ្នកប្រើប្រាស់សរុប",
+    "projects": "គម្រោង",
+    "blogPosts": "អត្ថបទប្លុក",
+    "messages": "សារ",
+    "applications": "ពាក្យស្នើសុំ",
+    "docs": "ឯកសារ"
+  },
+  "subtext": {
+    "users": "សកម្ម {{active}} · អសកម្ម {{inactive}}",
+    "projects": "សកម្ម {{active}} · កំពុងអភិវឌ្ឍ {{wip}}",
+    "blogPosts": "សេចក្តីព្រាង {{drafts}} · ចូលមើល {{views}}",
+    "messages": "សរុប {{total}} · ពាក្យស្នើសុំរង់ចាំ {{pendingApps}}",
+    "docs": "បានផ្សព្វផ្សាយ {{published}} · សេចក្តីព្រាង {{draft}}"
+  },
+  "secondary": {
+    "docsPublished": "ឯកសារបានផ្សព្វផ្សាយ",
+    "applications": "ពាក្យស្នើសុំ",
+    "pendingOfTotal": "រង់ចាំ {{pending}} / {{total}}",
+    "seriesCollections": "កម្រងអត្ថបទ និងកម្រងគម្រោង",
+    "mediaAssets": "ធនធានមេឌៀ",
+    "pendingApprovals": "កំពុងរង់ចាំការអនុម័ត"
+  },
+  "chart": {
+    "count": "ចំនួន",
+    "users": "អ្នកប្រើប្រាស់",
+    "projects": "គម្រោង",
+    "posts": "អត្ថបទ",
+    "docs": "ឯកសារ",
+    "messages": "សារ",
+    "applications": "ពាក្យស្នើសុំ"
+  }
+}

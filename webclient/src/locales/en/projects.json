@@ -1,0 +1,262 @@
+{
+  "common": {
+    "brandName": "APEX",
+    "featured": "Featured",
+    "openSource": "Open Source",
+    "oss": "OSS",
+    "liveDemo": "Live Demo",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "create": "Create",
+    "creating": "Creating...",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleting": "Deleting..."
+  },
+  "status": {
+    "active": "Active",
+    "completed": "Completed",
+    "in_progress": "In Progress",
+    "wip": "In Progress",
+    "workInProgress": "Work in Progress",
+    "planned": "Planned",
+    "archived": "Archived",
+    "draft": "Draft",
+    "published": "Published"
+  },
+  "public": {
+    "hero": {
+      "eyebrow": "Portfolio",
+      "titlePrefix": "Our",
+      "titleHighlight": "Projects",
+      "subtitle": "Real-world applications built with passion — from concept to deployment."
+    },
+    "stats": {
+      "totalProjects": "total projects",
+      "active": "active",
+      "openSource": "open source"
+    },
+    "filters": {
+      "searchPlaceholder": "Search projects...",
+      "allTags": "All Tags",
+      "allStatus": "All Status",
+      "clearFilters": "Clear filters",
+      "showingOne": "Showing {{count}} project",
+      "showingOther": "Showing {{count}} projects",
+      "showingOneFiltered": "Showing {{count}} project with active filters",
+      "showingOtherFiltered": "Showing {{count}} projects with active filters"
+    },
+    "featured": {
+      "eyebrow": "Featured",
+      "titlePrefix": "Spotlight",
+      "titleHighlight": "project"
+    },
+    "grid": {
+      "eyebrow": "All work",
+      "titlePrefix": "Explore the",
+      "titleHighlight": "collection"
+    },
+    "actions": {
+      "viewProject": "View Project",
+      "source": "Source",
+      "details": "Details →"
+    },
+    "empty": {
+      "title": "No projects found",
+      "message": "Try adjusting your search or filters to find what you are looking for."
+    }
+  },
+  "detail": {
+    "defaultTitle": "Project",
+    "documentTitle": "{{title}} – APEX",
+    "notFoundDocumentTitle": "Project Not Found – APEX",
+    "backToProjects": "Back to Projects",
+    "viewSource": "View Source",
+    "noDescription": "No detailed description available yet.",
+    "sidebar": {
+      "techStack": "Tech Stack",
+      "projectInfo": "Project Info",
+      "status": "Status",
+      "license": "License",
+      "created": "Created",
+      "creator": "Creator",
+      "links": "Links",
+      "githubRepository": "GitHub Repository",
+      "noExternalLinks": "No external links available"
+    },
+    "allProjects": "All Projects",
+    "contactCta": "Interested? Let's talk",
+    "notFound": {
+      "title": "Project not found",
+      "message": "The project you're looking for doesn't exist or has been removed."
+    }
+  },
+  "admin": {
+    "title": "Projects",
+    "subtitle": "Manage your team's portfolio and showcase projects",
+    "newProject": "New Project",
+    "stats": {
+      "total": "Total"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by title...",
+      "allStatus": "All Status",
+      "allProjects": "All Projects",
+      "featuredOnly": "Featured Only",
+      "allCollections": "All Collections"
+    },
+    "bulkDelete": "Delete ({{count}})",
+    "confirmBulkDelete": "Delete {{count}} projects?",
+    "loading": "Loading projects...",
+    "empty": "No projects found",
+    "table": {
+      "selectAll": "Select all projects",
+      "selectProject": "Select {{title}}",
+      "project": "Project",
+      "status": "Status",
+      "featured": "Featured",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "actions": {
+      "feature": "Mark as featured",
+      "unfeature": "Remove from featured"
+    },
+    "deleteModal": {
+      "title": "Delete Project",
+      "message": "Are you sure you want to delete <strong>{{title}}</strong>?"
+    },
+    "toasts": {
+      "featured": "Project featured!",
+      "unfeatured": "Project unfeatured",
+      "updateFailed": "Failed to update",
+      "deleted": "Project deleted",
+      "deleteFailed": "Failed to delete",
+      "bulkDeleted": "{{count}} projects deleted",
+      "bulkDeleteFailed": "Some deletions failed"
+    }
+  },
+  "form": {
+    "breadcrumb": {
+      "new": "New Project",
+      "edit": "Edit Project"
+    },
+    "header": {
+      "createTitle": "Create Project",
+      "editTitle": "Edit Project",
+      "createSubtitle": "Add a new project to your portfolio",
+      "editSubtitle": "Update project details and settings"
+    },
+    "sections": {
+      "basicInfo": "Basic Information",
+      "links": "Links",
+      "coverImage": "Cover Image",
+      "settings": "Settings",
+      "collection": "Collection",
+      "tags": "Tags"
+    },
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "shortDescription": "Short Description",
+      "longDescription": "Long Description",
+      "demoUrl": "Demo URL",
+      "repoUrl": "Repository URL",
+      "uploadTo": "Upload to",
+      "status": "Status",
+      "featuredHint": "Show on homepage",
+      "openSourceHint": "Publicly available code",
+      "none": "None"
+    },
+    "placeholders": {
+      "title": "My Awesome Project",
+      "slug": "my-awesome-project",
+      "shortDescription": "A brief summary of the project...",
+      "demoUrl": "https://demo.example.com",
+      "repoUrl": "https://github.com/user/repo"
+    },
+    "storage": {
+      "supabase": "Supabase",
+      "cloudinary": "Cloudinary"
+    },
+    "coverImage": {
+      "previewAlt": "Cover preview",
+      "remove": "Remove",
+      "uploadPrompt": "Click to upload cover",
+      "uploadHint": "PNG, JPG up to 2MB"
+    },
+    "actions": {
+      "newCollection": "New",
+      "createProject": "Create Project",
+      "updateProject": "Update Project"
+    },
+    "empty": {
+      "noTags": "No tags available"
+    },
+    "toasts": {
+      "loadFailed": "Failed to load project",
+      "collectionCreated": "Collection created!",
+      "collectionCreateFailed": "Failed to create collection",
+      "updated": "Project updated successfully!",
+      "created": "Project created successfully!",
+      "saveFailed": "Failed to save project"
+    }
+  },
+  "collections": {
+    "title": "Collections",
+    "subtitle": "Group projects into collections",
+    "newCollection": "New Collection",
+    "searchPlaceholder": "Search collections...",
+    "loading": "Loading collections...",
+    "empty": "No collections found",
+    "table": {
+      "name": "Name",
+      "slug": "Slug",
+      "description": "Description",
+      "projects": "Projects",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "modal": {
+      "newTitle": "New Collection",
+      "editTitle": "Edit Collection"
+    },
+    "fields": {
+      "name": "Name",
+      "slug": "Slug",
+      "description": "Description"
+    },
+    "placeholders": {
+      "name": "e.g. Mobile Apps",
+      "nameInline": "Collection name",
+      "slug": "mobile-apps",
+      "description": "Collection description..."
+    },
+    "deleteModal": {
+      "title": "Delete Collection",
+      "message": "Delete collection <strong>{{name}}</strong>? Projects are kept and become uncategorized."
+    },
+    "toasts": {
+      "loadFailed": "Failed to load collections",
+      "created": "Collection created",
+      "updated": "Collection updated",
+      "saveFailed": "Save failed",
+      "deleted": "Collection deleted",
+      "deleteFailed": "Delete failed"
+    }
+  },
+  "collectionDetail": {
+    "badge": "Collection",
+    "documentTitle": "{{name}} – @{{username}} | APEX",
+    "fallbackDocumentTitle": "Collection – APEX",
+    "notFound": {
+      "title": "Collection not found",
+      "message": "This collection does not exist or has no public page."
+    },
+    "empty": {
+      "title": "No projects in this collection",
+      "message": "Projects will show up here when assigned to this collection."
+    }
+  }
+}

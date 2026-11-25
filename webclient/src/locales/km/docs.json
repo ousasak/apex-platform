@@ -1,0 +1,307 @@
+{
+  "common": {
+    "edit": "កែសម្រួល",
+    "delete": "លុប",
+    "cancel": "បោះបង់",
+    "create": "បង្កើត",
+    "update": "ធ្វើបច្ចុប្បន្នភាព",
+    "close": "បិទ",
+    "saving": "កំពុងរក្សាទុក...",
+    "deleting": "កំពុងលុប..."
+  },
+  "status": {
+    "published": "បានផ្សព្វផ្សាយ",
+    "draft": "សេចក្តីព្រាង"
+  },
+  "public": {
+    "sidebar": {
+      "browse": "រុករក",
+      "subtitle": "មគ្គុទ្ទេសក៍ និងឯកសារយោង",
+      "searchPlaceholder": "ត្រងឯកសារ...",
+      "searchAriaLabel": "ត្រងឯកសារ"
+    },
+    "mobile": {
+      "menu": "ម៉ឺនុយ"
+    },
+    "header": {
+      "label": "ឯកសារ",
+      "categoryLabel": "ប្រភេទ៖"
+    },
+    "copy": {
+      "button": "ចម្លង Markdown",
+      "copied": "បានចម្លង Markdown!",
+      "failed": "ការចម្លងបានបរាជ័យ"
+    },
+    "navigation": {
+      "previous": "មុន",
+      "next": "បន្ទាប់"
+    },
+    "empty": {
+      "selectDoc": "ជ្រើសរើសឯកសារពីរបាររុករកខាងឆ្វេង។"
+    },
+    "toc": {
+      "title": "នៅលើទំព័រនេះ"
+    },
+    "scrollToTop": "រំកិលទៅលើបំផុត"
+  },
+  "admin": {
+    "title": "ឯកសារ",
+    "subtitle": "គ្រប់គ្រងទំព័រឯកសារ និងមគ្គុទ្ទេសក៍",
+    "actions": {
+      "reorder": "តម្រៀបលំដាប់",
+      "newDoc": "ឯកសារថ្មី"
+    },
+    "stats": {
+      "totalDocs": "ឯកសារសរុប",
+      "published": "បានផ្សព្វផ្សាយ",
+      "drafts": "សេចក្តីព្រាង"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកតាមចំណងជើង...",
+      "allStatus": "ស្ថានភាពទាំងអស់",
+      "allCategories": "ប្រភេទទាំងអស់"
+    },
+    "table": {
+      "title": "ចំណងជើង",
+      "category": "ប្រភេទ",
+      "status": "ស្ថានភាព",
+      "author": "អ្នកនិពន្ធ",
+      "updated": "បានធ្វើបច្ចុប្បន្នភាព"
+    },
+    "pagination": {
+      "showing": "កំពុងបង្ហាញ {{count}} ក្នុងចំណោមឯកសារ {{total}}",
+      "prev": "មុន",
+      "next": "បន្ទាប់"
+    },
+    "empty": {
+      "title": "មិនទាន់មានឯកសារនៅឡើយទេ",
+      "subtitle": "បង្កើតទំព័រឯកសារដំបូងរបស់អ្នក"
+    },
+    "deleteModal": {
+      "title": "លុបឯកសារមែនទេ?",
+      "description": "\"<strong>{{title}}</strong>\" នឹងត្រូវបានលុបជាអចិន្ត្រៃយ៍។"
+    },
+    "toast": {
+      "loadFailed": "មិនអាចផ្ទុកឯកសារបានទេ។",
+      "deleted": "បានលុបឯកសារដោយជោគជ័យ។",
+      "deleteFailed": "មិនអាចលុបឯកសារបានទេ។"
+    }
+  },
+  "form": {
+    "breadcrumb": {
+      "docs": "ឯកសារ",
+      "editDoc": "កែសម្រួលឯកសារ",
+      "newDoc": "ឯកសារថ្មី"
+    },
+    "header": {
+      "editTitle": "កែសម្រួលឯកសារ",
+      "createTitle": "បង្កើតឯកសារ",
+      "editSubtitle": "ធ្វើបច្ចុប្បន្នភាពខ្លឹមសារ និងការកំណត់ឯកសារ",
+      "createSubtitle": "សរសេរទំព័រឯកសារថ្មី"
+    },
+    "details": {
+      "heading": "ព័ត៌មានលម្អិតទំព័រ",
+      "titleLabel": "ចំណងជើង",
+      "titlePlaceholder": "ឧ. ចាប់ផ្តើមជាមួយ APEX",
+      "permalinkLabel": "តំណភ្ជាប់អចិន្ត្រៃយ៍",
+      "slugPlaceholder": "getting-started",
+      "done": "រួចរាល់",
+      "resetFromTitle": "កំណត់ឡើងវិញតាមចំណងជើង",
+      "manuallyEdited": "បានកែសម្រួលដោយផ្ទាល់"
+    },
+    "sections": {
+      "heading": "ផ្នែកនានា",
+      "helper": "(បង្ហាញជា \"នៅលើទំព័រនេះ\" ក្នុងទិដ្ឋភាពសាធារណៈ)",
+      "addSection": "បន្ថែមផ្នែក",
+      "emptyTitle": "មិនទាន់មានផ្នែកនៅឡើយទេ",
+      "emptySubtitle": "ចុច \"បន្ថែមផ្នែក\" ដើម្បីបន្ថែមចំណងជើងផ្នែក និងប្លុកខ្លឹមសារ។",
+      "sectionNumber": "ផ្នែកទី {{number}}",
+      "moveUp": "រំកិលឡើងលើ",
+      "moveDown": "រំកិលចុះក្រោម",
+      "removeSection": "ដកផ្នែកចេញ",
+      "headingLabel": "ចំណងជើងផ្នែក",
+      "headingHelper": "(បង្ហាញជាធាតុ TOC ក្នុងទិដ្ឋភាពសាធារណៈ)",
+      "headingPlaceholder": "ឧ. ការដំឡើង",
+      "contentLabel": "ខ្លឹមសារ",
+      "addAnotherSection": "បន្ថែមផ្នែកមួយទៀត"
+    },
+    "settings": {
+      "heading": "ការកំណត់",
+      "statusLabel": "ស្ថានភាព",
+      "category": {
+        "label": "ប្រភេទ",
+        "removeAria": "ដក {{name}} ចេញ",
+        "addMore": "បន្ថែមទៀត...",
+        "selectPlaceholder": "ជ្រើសរើសប្រភេទ...",
+        "empty": "មិនទាន់មានប្រភេទនៅឡើយទេ។",
+        "newPlaceholder": "ឈ្មោះប្រភេទថ្មី...",
+        "addButton": "បន្ថែម",
+        "helper": "ជ្រើសរើសប្រភេទមួយ ឬច្រើន។"
+      },
+      "menu": {
+        "label": "ម៉ឺនុយ",
+        "placeholder": "-- ជ្រើសរើសម៉ឺនុយ --",
+        "helper": "ប្រមូលផ្តុំទំព័រនៅក្នុងរបារចំហៀង។",
+        "manageLink": "គ្រប់គ្រងម៉ឺនុយ"
+      },
+      "parentPage": {
+        "label": "ទំព័រមេ",
+        "optionalHint": "(ជាជម្រើស — បង្កើតទំព័ររង)",
+        "noneOption": "— គ្មាន (ទំព័រកម្រិតកំពូល) —",
+        "generalGroup": "ទូទៅ",
+        "helper": "ទំព័ររងនឹងបង្ហាញចូលបន្ទាត់ក្រោមទំព័រមេក្នុងរបារចំហៀង។"
+      },
+      "order": {
+        "label": "លំដាប់",
+        "helper": "លេខតូចជាងនឹងបង្ហាញមុនគេ។"
+      }
+    },
+    "actions": {
+      "updateDoc": "ធ្វើបច្ចុប្បន្នភាពឯកសារ",
+      "publishDoc": "ផ្សព្វផ្សាយឯកសារ",
+      "saveDraft": "រក្សាទុកជាសេចក្តីព្រាង",
+      "viewPublicDoc": "មើលឯកសារសាធារណៈ"
+    },
+    "errors": {
+      "loadFailed": "មិនអាចផ្ទុកឯកសារបានទេ។",
+      "saveFailed": "មិនអាចរក្សាទុកឯកសារបានទេ។ សូមព្យាយាមម្តងទៀត។"
+    }
+  },
+  "reorder": {
+    "title": "តម្រៀបលំដាប់ឯកសារ",
+    "subtitle": "តម្រៀបលំដាប់ម៉ឺនុយមេ ម៉ឺនុយរង និងទំព័រដោយប្រើប៊ូតុងព្រួញ។",
+    "backToDocs": "ត្រឡប់ទៅឯកសារ",
+    "saveOrder": "រក្សាទុកលំដាប់",
+    "empty": "រកមិនឃើញម៉ឺនុយ ឬឯកសារទេ។ សូមបង្កើតម៉ឺនុយមេជាមុនសិន។",
+    "moveUp": "រំកិលឡើងលើ",
+    "moveDown": "រំកិលចុះក្រោម",
+    "badges": {
+      "main": "មេ",
+      "sub": "រង"
+    },
+    "counts": {
+      "mainSummary": "ម៉ឺនុយរង {{subCount}} · ទំព័រផ្ទាល់ {{directCount}}",
+      "pages_one": "{{count}} ទំព័រ",
+      "pages_other": "{{count}} ទំព័រ"
+    },
+    "emptySubMenu": "គ្មានទំព័រនៅក្នុងម៉ឺនុយរងនេះទេ",
+    "directPages": "ទំព័រផ្ទាល់",
+    "emptyDirectPages": "គ្មានទំព័រផ្ទាល់ទេ",
+    "unassigned": {
+      "title": "ទំព័រមិនទាន់កំណត់ម៉ឺនុយ",
+      "subtitle": "ទំព័រដែលមិនទាន់ត្រូវបានកំណត់ទៅម៉ឺនុយណាមួយ"
+    },
+    "toast": {
+      "loadFailed": "មិនអាចផ្ទុកទិន្នន័យបានទេ។",
+      "saved": "បានរក្សាទុកលំដាប់!",
+      "saveFailed": "មិនអាចរក្សាទុកបានទេ។ សូមព្យាយាមម្តងទៀត។"
+    }
+  },
+  "menus": {
+    "title": "ម៉ឺនុយឯកសារ",
+    "subtitle": "គ្រប់គ្រងការរុករកឯកសារ។ រចនាសម្ព័ន្ធ៖ <highlight>ម៉ឺនុយមេ → ម៉ឺនុយរង → ទំព័រ → ទំព័ររង</highlight>",
+    "actions": {
+      "newMainMenu": "ម៉ឺនុយមេថ្មី",
+      "subMenu": "ម៉ឺនុយរង",
+      "addSubMenuTitle": "បន្ថែមម៉ឺនុយរង",
+      "page": "ទំព័រ",
+      "addPageTitle": "បន្ថែមទំព័រ",
+      "expand": "ពង្រីកម៉ឺនុយ",
+      "collapse": "បង្រួមម៉ឺនុយ"
+    },
+    "badges": {
+      "main": "មេ"
+    },
+    "counts": {
+      "subMenus_one": "ម៉ឺនុយរង {{count}}",
+      "subMenus_other": "ម៉ឺនុយរង {{count}}",
+      "pages_one": "{{count}} ទំព័រ",
+      "pages_other": "{{count}} ទំព័រ"
+    },
+    "empty": {
+      "title": "មិនទាន់មានម៉ឺនុយមេនៅឡើយទេ",
+      "subtitle": "បង្កើតម៉ឺនុយមេដំបូងរបស់អ្នក ដើម្បីរៀបចំផ្នែកឯកសារ។",
+      "cta": "បង្កើតម៉ឺនុយដំបូង"
+    },
+    "emptySubMenus": "គ្មានម៉ឺនុយរងទេ។ ចុច \"+ ម៉ឺនុយរង\" ដើម្បីបន្ថែម ឬ \"+ ទំព័រ\" ដើម្បីបន្ថែមទំព័រដោយផ្ទាល់។",
+    "modal": {
+      "editTitle": "កែសម្រួលម៉ឺនុយ",
+      "newSubMenuTitle": "ម៉ឺនុយរងថ្មី",
+      "newMainMenuTitle": "ម៉ឺនុយមេថ្មី",
+      "addingUnder": "កំពុងបន្ថែមម៉ឺនុយរងក្រោម <strong>{{parent}}</strong>",
+      "subMenuNameLabel": "ឈ្មោះម៉ឺនុយរង",
+      "mainMenuNameLabel": "ឈ្មោះម៉ឺនុយមេ",
+      "subMenuNamePlaceholder": "ឧ. ការដំឡើង, ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណ",
+      "mainMenuNamePlaceholder": "ឧ. ការចាប់ផ្តើម, ឯកសារយោង API",
+      "slugLabel": "Slug៖",
+      "slugFallback": "menu-name",
+      "descriptionLabel": "ការពិពណ៌នា",
+      "optional": "(ជាជម្រើស)",
+      "descriptionPlaceholder": "ការពិពណ៌នាសង្ខេបអំពីផ្នែកនេះ...",
+      "displayOrderLabel": "លំដាប់បង្ហាញ",
+      "displayOrderHelper": "លេខតូចជាងនឹងបង្ហាញមុនគេនៅក្នុងរបារចំហៀង។"
+    },
+    "deleteModal": {
+      "title": "លុប \"{{name}}\" មែនទេ?",
+      "subMenuDescription": "ម៉ឺនុយរងនេះ និងការភ្ជាប់ទំព័ររបស់វានឹងត្រូវបានដកចេញ។",
+      "mainMenuDescription": "ម៉ឺនុយមេនេះ និងម៉ឺនុយរងទាំងអស់របស់វានឹងត្រូវបានដកចេញ។"
+    },
+    "toast": {
+      "loadFailed": "មិនអាចផ្ទុកម៉ឺនុយបានទេ។",
+      "updated": "បានធ្វើបច្ចុប្បន្នភាពម៉ឺនុយ។",
+      "created": "បានបង្កើតម៉ឺនុយ។",
+      "deleted": "បានលុបម៉ឺនុយ។",
+      "deleteFailed": "មិនអាចលុបម៉ឺនុយបានទេ។"
+    },
+    "errors": {
+      "generic": "មានបញ្ហាបានកើតឡើង។"
+    }
+  },
+  "categories": {
+    "title": "ប្រភេទឯកសារ",
+    "subtitle": "គ្រប់គ្រងប្រភេទដែលប្រើសម្រាប់ប្រមូលផ្តុំទំព័រឯកសារ។",
+    "actions": {
+      "newCategory": "ប្រភេទថ្មី",
+      "rename": "ប្តូរឈ្មោះ"
+    },
+    "empty": {
+      "title": "មិនទាន់មានប្រភេទនៅឡើយទេ។",
+      "subtitle": "បង្កើតប្រភេទថ្មី ឬកំណត់ប្រភេទនៅពេលកែសម្រួលឯកសារ។"
+    },
+    "table": {
+      "name": "ឈ្មោះ",
+      "docs": "ឯកសារ"
+    },
+    "counts": {
+      "docs_one": "{{count}} ឯកសារ",
+      "docs_other": "{{count}} ឯកសារ"
+    },
+    "modal": {
+      "createTitle": "ប្រភេទថ្មី",
+      "renameTitle": "ប្តូរឈ្មោះ \"{{name}}\"",
+      "nameLabel": "ឈ្មោះប្រភេទ",
+      "namePlaceholder": "ឧ. Big Data, Machine Learning"
+    },
+    "deleteModal": {
+      "title": "លុបប្រភេទ",
+      "confirmText": "លុប <highlight>\"{{name}}\"</highlight> មែនទេ?",
+      "moveNotice_one": "ឯកសារចំនួន {{count}} នឹងត្រូវបានផ្ទេរទៅប្រភេទផ្សេងទៀត។",
+      "moveNotice_other": "ឯកសារចំនួន {{count}} នឹងត្រូវបានផ្ទេរទៅប្រភេទផ្សេងទៀត។",
+      "moveToLabel": "ផ្ទេរឯកសារទៅ",
+      "generalOption": "ទូទៅ"
+    },
+    "validation": {
+      "nameRequired": "តម្រូវឱ្យបញ្ចូលឈ្មោះ។"
+    },
+    "toast": {
+      "loadFailed": "មិនអាចផ្ទុកប្រភេទបានទេ។",
+      "created": "បានបង្កើតប្រភេទ \"{{name}}\"។",
+      "renamed": "បានប្តូរឈ្មោះទៅជា \"{{name}}\"។",
+      "deleted": "បានលុបប្រភេទ \"{{name}}\"។"
+    },
+    "errors": {
+      "saveFailed": "មិនអាចរក្សាទុកបានទេ។",
+      "deleteFailed": "មិនអាចលុបបានទេ។"
+    }
+  }
+}

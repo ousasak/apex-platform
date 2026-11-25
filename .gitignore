@@ -1,0 +1,48 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Environment
+.env
+.env.backup
+.env.production
+scripts/restore.env.local
+scripts/.tmp-*.sql
+!webclient/.env.production
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel
+/backend/vendor
+/backend/node_modules
+/backend/storage/*.key
+/backend/storage/app/public/*
+!/backend/storage/app/public/.gitkeep
+/backend/bootstrap/cache/*
+!/backend/bootstrap/cache/.gitkeep
+/backend/.phpunit.result.cache
+/backend/.phpunit.cache/
+/backend/Homestead.json
+/backend/Homestead.yaml
+
+# Webclient
+/webclient/node_modules
+/webclient/dist
+/webclient/.vite
+
+# Docker
+scripts/.tools/
+pgadmin_data/
+/public/storage
+/backend/public/storage
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,285 @@
+{
+  "common": {
+    "save": "រក្សាទុក",
+    "saving": "កំពុងរក្សាទុក...",
+    "cancel": "បោះបង់",
+    "delete": "លុប",
+    "deleting": "កំពុងលុប...",
+    "edit": "កែសម្រួល",
+    "close": "បិទ",
+    "somethingWentWrong": "មានបញ្ហាអ្វីមួយបានកើតឡើង",
+    "queuedForApproval": "បានដាក់ក្នុងជួររង់ចាំការអនុម័ត"
+  },
+  "categories": {
+    "title": "ប្រភេទអត្ថបទ",
+    "subtitle": "គ្រប់គ្រងប្រភេទអត្ថបទប្លុក",
+    "searchPlaceholder": "ស្វែងរកប្រភេទអត្ថបទ...",
+    "empty": "មិនមានប្រភេទអត្ថបទទេ។",
+    "postsCount": "{{count}} អត្ថបទ",
+    "noDescription": "មិនមានការពិពណ៌នាទេ។",
+    "actions": {
+      "add": "បន្ថែមប្រភេទអត្ថបទ"
+    },
+    "stats": {
+      "total": "សរុប",
+      "used": "កំពុងប្រើប្រាស់",
+      "unused": "មិនទាន់ប្រើប្រាស់"
+    },
+    "sort": {
+      "placeholder": "តម្រៀបតាម",
+      "nameAsc": "ឈ្មោះ A-Z",
+      "nameDesc": "ឈ្មោះ Z-A",
+      "mostPosts": "អត្ថបទច្រើនបំផុត",
+      "newest": "ថ្មីបំផុត",
+      "oldest": "ចាស់បំផុត"
+    },
+    "modal": {
+      "addTitle": "បន្ថែមប្រភេទអត្ថបទ",
+      "editTitle": "កែសម្រួលប្រភេទអត្ថបទ"
+    },
+    "form": {
+      "name": "ឈ្មោះ",
+      "namePlaceholder": "ឧ. បច្ចេកវិទ្យា",
+      "slug": "ស្លាក URL (Slug)",
+      "slugPlaceholder": "technology",
+      "description": "ការពិពណ៌នា",
+      "descriptionPlaceholder": "ការពិពណ៌នាអំពីប្រភេទអត្ថបទ...",
+      "colorTag": "ពណ៌សម្គាល់"
+    },
+    "deleteModal": {
+      "title": "លុបប្រភេទអត្ថបទ",
+      "message": "តើអ្នកប្រាកដថាចង់លុប <strong>{{name}}</strong> មែនទេ?"
+    },
+    "toasts": {
+      "loadError": "មិនអាចផ្ទុកប្រភេទអត្ថបទបានទេ",
+      "createSuccess": "បានបង្កើតប្រភេទអត្ថបទដោយជោគជ័យ",
+      "updateSuccess": "បានធ្វើបច្ចុប្បន្នភាពប្រភេទអត្ថបទដោយជោគជ័យ",
+      "deleteSuccess": "បានលុបប្រភេទអត្ថបទដោយជោគជ័យ",
+      "deleteError": "មិនអាចលុបប្រភេទអត្ថបទបានទេ"
+    }
+  },
+  "tags": {
+    "title": "ស្លាក (Tags)",
+    "subtitle": "រៀបចំគម្រោងដោយប្រើស្លាកពណ៌សម្គាល់",
+    "searchPlaceholder": "ស្វែងរកស្លាក...",
+    "empty": "មិនមានស្លាកទេ។",
+    "projectsCount": "{{count}} គម្រោង",
+    "actions": {
+      "add": "បន្ថែមស្លាក"
+    },
+    "stats": {
+      "total": "ស្លាកសរុប",
+      "used": "ប្រើក្នុងគម្រោង",
+      "unused": "ស្លាកមិនទាន់ប្រើ",
+      "uniqueColors": "ពណ៌ផ្សេងគ្នា"
+    },
+    "modal": {
+      "addTitle": "បន្ថែមស្លាក",
+      "editTitle": "កែសម្រួលស្លាក"
+    },
+    "form": {
+      "name": "ឈ្មោះ",
+      "namePlaceholder": "ឧ. Spring Boot",
+      "slug": "ស្លាក URL (Slug)",
+      "slugPlaceholder": "spring-boot",
+      "color": "ពណ៌",
+      "logo": "ឡូហ្គូ (Logo)",
+      "logoModeUrl": "ដាក់ជា URL",
+      "logoModeUpload": "ផ្ទុកឡើង (Upload)",
+      "logoPlaceholder": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/...",
+      "logoUploadHint": "ចុចដើម្បីផ្ទុកឡើង SVG, PNG, JPG, WEBP ឬ GIF (អតិបរមា 2MB)",
+      "logoPreviewAlt": "មើលឡូហ្គូជាមុន",
+      "logoRemove": "លុបចេញ"
+    },
+    "deleteModal": {
+      "title": "លុបស្លាក",
+      "message": "តើអ្នកប្រាកដថាចង់លុបស្លាក <strong>{{name}}</strong> មែនទេ?"
+    },
+    "toasts": {
+      "loadError": "មិនអាចផ្ទុកស្លាកបានទេ",
+      "createSuccess": "បានបង្កើតស្លាកដោយជោគជ័យ",
+      "updateSuccess": "បានធ្វើបច្ចុប្បន្នភាពស្លាកដោយជោគជ័យ",
+      "deleteSuccess": "បានលុបស្លាកដោយជោគជ័យ",
+      "deleteError": "មិនអាចលុបស្លាកបានទេ"
+    }
+  },
+  "team": {
+    "title": "សមាជិកក្រុម",
+    "subtitle": "គ្រប់គ្រងបញ្ជីសមាជិកក្រុម និងប្រវត្តិរូបសមាជិក",
+    "searchPlaceholder": "ស្វែងរកសមាជិកតាមឈ្មោះ តួនាទី ឬអ៊ីមែល...",
+    "empty": "មិនមានសមាជិកក្រុមទេ។",
+    "orderLabel": "លំដាប់៖ {{order}}",
+    "actions": {
+      "add": "បន្ថែមសមាជិក"
+    },
+    "stats": {
+      "total": "សរុប",
+      "founders": "ស្ថាបនិក",
+      "visible": "កំពុងបង្ហាញ",
+      "hidden": "បានលាក់"
+    },
+    "badges": {
+      "founder": "ស្ថាបនិក"
+    },
+    "modal": {
+      "addTitle": "បន្ថែមសមាជិកក្រុម",
+      "editTitle": "កែសម្រួលសមាជិកក្រុម"
+    },
+    "form": {
+      "avatarPreviewAlt": "រូបភាពមើលជាមុន",
+      "uploadPhoto": "ផ្ទុករូបភាពឡើង",
+      "name": "ឈ្មោះ",
+      "namePlaceholder": "ជា សុខា",
+      "titleRole": "តួនាទី / មុខតំណែង",
+      "titlePlaceholder": "ប្រធានក្រុម Full Stack",
+      "email": "អ៊ីមែល",
+      "emailPlaceholder": "sokha@apex.space",
+      "bio": "ជីវប្រវត្តិសង្ខេប",
+      "bioPlaceholder": "ការណែនាំខ្លីៗ...",
+      "githubUrl": "តំណភ្ជាប់ GitHub",
+      "githubPlaceholder": "https://github.com/...",
+      "linkedinUrl": "តំណភ្ជាប់ LinkedIn",
+      "linkedinPlaceholder": "https://linkedin.com/in/...",
+      "telegramUrl": "តំណភ្ជាប់ Telegram",
+      "telegramPlaceholder": "https://t.me/...",
+      "founder": "ស្ថាបនិក",
+      "visibleOnSite": "បង្ហាញលើគេហទំព័រ",
+      "order": "លំដាប់៖",
+      "saveMember": "រក្សាទុកសមាជិក"
+    },
+    "deleteModal": {
+      "title": "ដកសមាជិកចេញ",
+      "message": "ដក <strong>{{name}}</strong> ចេញពីក្រុមមែនទេ?"
+    },
+    "toasts": {
+      "createSuccess": "បានបន្ថែមសមាជិកដោយជោគជ័យ!",
+      "updateSuccess": "បានធ្វើបច្ចុប្បន្នភាពសមាជិកដោយជោគជ័យ!",
+      "saveError": "មិនអាចរក្សាទុកបានទេ",
+      "deleteSuccess": "បានដកសមាជិកចេញហើយ",
+      "deleteError": "មិនអាចដកចេញបានទេ"
+    }
+  },
+  "media": {
+    "title": "បណ្ណាល័យមេឌៀ",
+    "subtitle": "គ្រប់គ្រងរូបភាព និងឯកសារដែលបានផ្ទុកឡើង",
+    "searchPlaceholder": "ស្វែងរកឯកសារតាមឈ្មោះ...",
+    "empty": "មិនមានឯកសារមេឌៀទេ។ សូមផ្ទុកឡើងខ្លះដើម្បីចាប់ផ្តើម!",
+    "fallbackDoc": "ឯកសារ",
+    "fallbackFile": "ឯកសារ",
+    "confirmBulkDelete": "លុបឯកសារចំនួន {{count}} មែនទេ?",
+    "actions": {
+      "deleteSelected": "លុប ({{count}})",
+      "uploadFiles": "ផ្ទុកឯកសារឡើង",
+      "uploading": "កំពុងផ្ទុកឡើង...",
+      "copyUrl": "ចម្លងតំណ URL"
+    },
+    "providers": {
+      "supabase": "Supabase",
+      "cloudinary": "Cloudinary",
+      "both": "ទាំងពីរ"
+    },
+    "filters": {
+      "all": "ទាំងអស់",
+      "image": "រូបភាព",
+      "document": "ឯកសារ"
+    },
+    "units": {
+      "b": "B",
+      "kb": "KB",
+      "mb": "MB",
+      "gb": "GB"
+    },
+    "detail": {
+      "size": "ទំហំ៖",
+      "provider": "ប្រព័ន្ធផ្ទុក៖",
+      "url": "តំណ URL៖"
+    },
+    "deleteModal": {
+      "title": "លុបឯកសារ",
+      "message": "លុបឯកសារ <strong>{{name}}</strong> មែនទេ?"
+    },
+    "toasts": {
+      "uploadError": "មិនអាចផ្ទុកឡើង {{name}} បានទេ",
+      "uploadSuccess": "បានផ្ទុកឯកសារចំនួន {{count}} ដោយជោគជ័យ!",
+      "urlCopied": "បានចម្លងតំណ URL ទៅក្ដារតម្បៀតខ្ទាស់!",
+      "deleteSuccess": "បានលុបឯកសារហើយ",
+      "deleteError": "មិនអាចលុបឯកសារបានទេ",
+      "bulkDeleteSuccess": "បានលុបឯកសារចំនួន {{count}}",
+      "bulkDeletePartialError": "ការលុបមួយចំនួនបានបរាជ័យ"
+    }
+  },
+  "settings": {
+    "title": "ការកំណត់",
+    "subtitle": "គ្រប់គ្រងការកំណត់រចនាសម្ព័ន្ធ និងចំណូលចិត្តគេហទំព័ររបស់អ្នក",
+    "unsavedChanges": "មានការផ្លាស់ប្តូរមិនទាន់រក្សាទុក",
+    "unsavedBanner": "អ្នកមានការផ្លាស់ប្តូរដែលមិនទាន់បានរក្សាទុក",
+    "sectionTitle": "ការកំណត់{{group}}",
+    "charactersCount": "{{count}} តួអក្សរ",
+    "actions": {
+      "saveChanges": "រក្សាទុកការផ្លាស់ប្តូរ",
+      "discard": "បោះបង់"
+    },
+    "status": {
+      "enabled": "បានបើក",
+      "disabled": "បានបិទ"
+    },
+    "groups": {
+      "defaultDescription": "កំណត់រចនាសម្ព័ន្ធការកំណត់សម្រាប់ផ្នែកនេះ",
+      "general": {
+        "label": "ទូទៅ",
+        "description": "ព័ត៌មានមូលដ្ឋានរបស់គេហទំព័រ ដូចជា ឈ្មោះ ពាក្យស្លោក និងការពិពណ៌នា"
+      },
+      "social": {
+        "label": "បណ្តាញសង្គម",
+        "description": "ព័ត៌មានទំនាក់ទំនង និងតំណភ្ជាប់បណ្តាញសង្គម"
+      },
+      "seo": {
+        "label": "SEO",
+        "description": "ការបង្កើនប្រសិទ្ធភាពម៉ាស៊ីនស្វែងរក (SEO) និងស្លាក Meta"
+      },
+      "permissions": {
+        "label": "សិទ្ធិប្រើប្រាស់",
+        "description": "គ្រប់គ្រងសកម្មភាពដែលអ្នកគ្រប់គ្រងអាចធ្វើបានដោយមិនចាំបាច់មានការអនុម័តពី Super Admin"
+      },
+      "storage": {
+        "label": "កន្លែងផ្ទុក",
+        "description": "គ្រប់គ្រងប្រព័ន្ធផ្ទុកទិន្នន័យលើពពកដែលអាចប្រើបានសម្រាប់ការផ្ទុកឯកសារទាំងអស់របស់អ្នកគ្រប់គ្រង"
+      }
+    },
+    "fields": {
+      "site_name": "ឈ្មោះគេហទំព័រ",
+      "site_tagline": "ពាក្យស្លោកគេហទំព័រ",
+      "site_description": "ការពិពណ៌នាគេហទំព័រ",
+      "contact_email": "អ៊ីមែលទំនាក់ទំនង",
+      "github_url": "តំណភ្ជាប់ GitHub",
+      "telegram_url": "តំណភ្ជាប់ Telegram",
+      "meta_title": "ចំណងជើង Meta",
+      "meta_description": "ការពិពណ៌នា Meta",
+      "admin_direct_action": "សកម្មភាពផ្ទាល់របស់អ្នកគ្រប់គ្រង",
+      "allowed_storage_providers": "ប្រព័ន្ធផ្ទុកទិន្នន័យដែលអនុញ្ញាត"
+    },
+    "hints": {
+      "site_name": "— បង្ហាញនៅក្បាលទំព័រ និងផ្ទាំងកម្មវិធីរុករក",
+      "site_tagline": "— ពាក្យស្លោកខ្លីបង្ហាញលើទំព័រដើម",
+      "site_description": "— ប្រើប្រាស់ក្នុងផ្នែកអំពីយើង",
+      "contact_email": "— អ៊ីមែលទំនាក់ទំនងសាធារណៈ",
+      "meta_title": "— ចំណងជើងលើផ្ទាំងកម្មវិធីរុករក និងលទ្ធផលស្វែងរក",
+      "meta_description": "— អត្ថបទសង្ខេបក្នុងលទ្ធផលស្វែងរក"
+    },
+    "placeholders": {
+      "url": "https://",
+      "email": "email@example.com",
+      "enterField": "បញ្ចូល {{field}}..."
+    },
+    "storage": {
+      "supabaseOnly": "Supabase ប៉ុណ្ណោះ",
+      "both": "ទាំងពីរ",
+      "cloudinaryOnly": "Cloudinary ប៉ុណ្ណោះ",
+      "helperText": "អ្នកគ្រប់គ្រងនឹងអាចផ្ទុកឯកសារឡើងទៅកាន់ប្រព័ន្ធផ្ទុកដែលបានជ្រើសរើសនៅទីនេះប៉ុណ្ណោះ។"
+    },
+    "toasts": {
+      "saveSuccess": "បានរក្សាទុកការកំណត់ដោយជោគជ័យ!",
+      "saveError": "មិនអាចរក្សាទុកការកំណត់បានទេ"
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "common": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "create": "Create",
+    "update": "Update",
+    "close": "Close",
+    "saving": "Saving...",
+    "deleting": "Deleting..."
+  },
+  "status": {
+    "published": "Published",
+    "draft": "Draft"
+  },
+  "public": {
+    "sidebar": {
+      "browse": "Browse",
+      "subtitle": "Guides & references",
+      "searchPlaceholder": "Filter docs...",
+      "searchAriaLabel": "Filter documentation"
+    },
+    "mobile": {
+      "menu": "Menu"
+    },
+    "header": {
+      "label": "Documentation",
+      "categoryLabel": "Category:"
+    },
+    "copy": {
+      "button": "Copy Markdown",
+      "copied": "Copied Markdown!",
+      "failed": "Copy failed"
+    },
+    "navigation": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "empty": {
+      "selectDoc": "Select a document from the left navigation."
+    },
+    "toc": {
+      "title": "On this page"
+    },
+    "scrollToTop": "Scroll to top"
+  },
+  "admin": {
+    "title": "Docs",
+    "subtitle": "Manage documentation pages and guides",
+    "actions": {
+      "reorder": "Reorder",
+      "newDoc": "New Doc"
+    },
+    "stats": {
+      "totalDocs": "Total Docs",
+      "published": "Published",
+      "drafts": "Drafts"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by title...",
+      "allStatus": "All Status",
+      "allCategories": "All Categories"
+    },
+    "table": {
+      "title": "Title",
+      "category": "Category",
+      "status": "Status",
+      "author": "Author",
+      "updated": "Updated"
+    },
+    "pagination": {
+      "showing": "Showing {{count}} of {{total}} docs",
+      "prev": "Prev",
+      "next": "Next"
+    },
+    "empty": {
+      "title": "No docs yet",
+      "subtitle": "Create your first documentation page"
+    },
+    "deleteModal": {
+      "title": "Delete Doc?",
+      "description": "\"<strong>{{title}}</strong>\" will be permanently deleted."
+    },
+    "toast": {
+      "loadFailed": "Failed to load documentation.",
+      "deleted": "Document deleted successfully.",
+      "deleteFailed": "Failed to delete document."
+    }
+  },
+  "form": {
+    "breadcrumb": {
+      "docs": "Docs",
+      "editDoc": "Edit Doc",
+      "newDoc": "New Doc"
+    },
+    "header": {
+      "editTitle": "Edit Doc",
+      "createTitle": "Create Doc",
+      "editSubtitle": "Update documentation content and settings",
+      "createSubtitle": "Write a new documentation page"
+    },
+    "details": {
+      "heading": "Page Details",
+      "titleLabel": "Title",
+      "titlePlaceholder": "e.g. Getting Started with APEX",
+      "permalinkLabel": "Permalink",
+      "slugPlaceholder": "getting-started",
+      "done": "Done",
+      "resetFromTitle": "Reset from title",
+      "manuallyEdited": "Manually edited"
+    },
+    "sections": {
+      "heading": "Sections",
+      "helper": "(appear as \"On this page\" in public view)",
+      "addSection": "Add Section",
+      "emptyTitle": "No sections yet",
+      "emptySubtitle": "Click \"Add Section\" to add headings and content blocks.",
+      "sectionNumber": "Section {{number}}",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "removeSection": "Remove section",
+      "headingLabel": "Heading",
+      "headingHelper": "(shown as TOC item in public view)",
+      "headingPlaceholder": "e.g. Installation",
+      "contentLabel": "Content",
+      "addAnotherSection": "Add Another Section"
+    },
+    "settings": {
+      "heading": "Settings",
+      "statusLabel": "Status",
+      "category": {
+        "label": "Category",
+        "removeAria": "Remove {{name}}",
+        "addMore": "Add more...",
+        "selectPlaceholder": "Select categories...",
+        "empty": "No categories yet.",
+        "newPlaceholder": "New category name...",
+        "addButton": "Add",
+        "helper": "Choose one or more categories."
+      },
+      "menu": {
+        "label": "Menu",
+        "placeholder": "-- Select a menu --",
+        "helper": "Groups pages in the sidebar.",
+        "manageLink": "Manage menus"
+      },
+      "parentPage": {
+        "label": "Parent Page",
+        "optionalHint": "(optional — creates a subpage)",
+        "noneOption": "— None (top-level page) —",
+        "generalGroup": "General",
+        "helper": "Subpages appear indented under the parent in the sidebar."
+      },
+      "order": {
+        "label": "Order",
+        "helper": "Lower numbers appear first."
+      }
+    },
+    "actions": {
+      "updateDoc": "Update Doc",
+      "publishDoc": "Publish Doc",
+      "saveDraft": "Save Draft",
+      "viewPublicDoc": "View public doc"
+    },
+    "errors": {
+      "loadFailed": "Failed to load doc.",
+      "saveFailed": "Failed to save doc. Please try again."
+    }
+  },
+  "reorder": {
+    "title": "Reorder Docs",
+    "subtitle": "Reorder Main Menus, Sub-Menus, and Pages using the arrow controls.",
+    "backToDocs": "Back to Docs",
+    "saveOrder": "Save Order",
+    "empty": "No menus or docs found. Create a Main Menu first.",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "badges": {
+      "main": "Main",
+      "sub": "Sub"
+    },
+    "counts": {
+      "mainSummary": "{{subCount}} sub · {{directCount}} direct",
+      "pages_one": "{{count}} page",
+      "pages_other": "{{count}} pages"
+    },
+    "emptySubMenu": "No pages in this sub-menu",
+    "directPages": "Direct Pages",
+    "emptyDirectPages": "No direct pages",
+    "unassigned": {
+      "title": "Unassigned Pages",
+      "subtitle": "Pages not assigned to any menu"
+    },
+    "toast": {
+      "loadFailed": "Failed to load data.",
+      "saved": "Order saved!",
+      "saveFailed": "Failed to save. Please try again."
+    }
+  },
+  "menus": {
+    "title": "Doc Menus",
+    "subtitle": "Manage documentation navigation. Structure: <highlight>Main Menu → Sub-Menu → Pages → Subpages</highlight>",
+    "actions": {
+      "newMainMenu": "New Main Menu",
+      "subMenu": "Sub-Menu",
+      "addSubMenuTitle": "Add sub-menu",
+      "page": "Page",
+      "addPageTitle": "Add page",
+      "expand": "Expand menu",
+      "collapse": "Collapse menu"
+    },
+    "badges": {
+      "main": "Main"
+    },
+    "counts": {
+      "subMenus_one": "{{count}} sub-menu",
+      "subMenus_other": "{{count}} sub-menus",
+      "pages_one": "{{count}} page",
+      "pages_other": "{{count}} pages"
+    },
+    "empty": {
+      "title": "No main menus yet",
+      "subtitle": "Create your first main menu to organize documentation sections.",
+      "cta": "Create first menu"
+    },
+    "emptySubMenus": "No sub-menus. Click \"+ Sub-Menu\" to add one, or \"+ Page\" to add a page directly.",
+    "modal": {
+      "editTitle": "Edit Menu",
+      "newSubMenuTitle": "New Sub-Menu",
+      "newMainMenuTitle": "New Main Menu",
+      "addingUnder": "Adding sub-menu under <strong>{{parent}}</strong>",
+      "subMenuNameLabel": "Sub-Menu Name",
+      "mainMenuNameLabel": "Main Menu Name",
+      "subMenuNamePlaceholder": "e.g. Installation, Authentication",
+      "mainMenuNamePlaceholder": "e.g. Getting Started, API Reference",
+      "slugLabel": "Slug:",
+      "slugFallback": "menu-name",
+      "descriptionLabel": "Description",
+      "optional": "(optional)",
+      "descriptionPlaceholder": "Short description of this section...",
+      "displayOrderLabel": "Display Order",
+      "displayOrderHelper": "Lower numbers appear first in the sidebar."
+    },
+    "deleteModal": {
+      "title": "Delete \"{{name}}\"?",
+      "subMenuDescription": "This sub-menu and its pages association will be removed.",
+      "mainMenuDescription": "This main menu and all its sub-menus will be removed."
+    },
+    "toast": {
+      "loadFailed": "Failed to load menus.",
+      "updated": "Menu updated.",
+      "created": "Menu created.",
+      "deleted": "Menu deleted.",
+      "deleteFailed": "Failed to delete menu."
+    },
+    "errors": {
+      "generic": "An error occurred."
+    }
+  },
+  "categories": {
+    "title": "Doc Categories",
+    "subtitle": "Manage categories used to group documentation pages.",
+    "actions": {
+      "newCategory": "New Category",
+      "rename": "Rename"
+    },
+    "empty": {
+      "title": "No categories yet.",
+      "subtitle": "Create a category or assign one when editing a doc."
+    },
+    "table": {
+      "name": "Name",
+      "docs": "Docs"
+    },
+    "counts": {
+      "docs_one": "{{count}} doc",
+      "docs_other": "{{count}} docs"
+    },
+    "modal": {
+      "createTitle": "New Category",
+      "renameTitle": "Rename \"{{name}}\"",
+      "nameLabel": "Category Name",
+      "namePlaceholder": "e.g. Big Data, Machine Learning"
+    },
+    "deleteModal": {
+      "title": "Delete Category",
+      "confirmText": "Delete <highlight>\"{{name}}\"</highlight>?",
+      "moveNotice_one": "{{count}} doc will be moved to another category.",
+      "moveNotice_other": "{{count}} docs will be moved to another category.",
+      "moveToLabel": "Move docs to",
+      "generalOption": "General"
+    },
+    "validation": {
+      "nameRequired": "Name is required."
+    },
+    "toast": {
+      "loadFailed": "Failed to load categories.",
+      "created": "Category \"{{name}}\" created.",
+      "renamed": "Renamed to \"{{name}}\".",
+      "deleted": "Category \"{{name}}\" deleted."
+    },
+    "errors": {
+      "saveFailed": "Failed to save.",
+      "deleteFailed": "Failed to delete."
+    }
+  }
+}

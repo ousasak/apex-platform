@@ -1,0 +1,187 @@
+{
+  "appName": "APEX",
+  "appSubtitle": "Full-Stack Engineer",
+  "logoAlt": "APEX Portfolio Logo",
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search...",
+    "searchLabel": "Search",
+    "filter": "Filter",
+    "refresh": "Refresh",
+    "refreshing": "Refreshing...",
+    "close": "Close",
+    "submit": "Submit",
+    "back": "Back",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "view": "View",
+    "read": "Read",
+    "go": "Go",
+    "clear": "Clear",
+    "hide": "Hide",
+    "show": "Show"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "published": "Published",
+    "draft": "Draft",
+    "archived": "Archived",
+    "completed": "Completed",
+    "in_progress": "In Progress",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "roles": {
+    "superadmin": "Super Admin",
+    "admin": "Admin",
+    "member": "Member"
+  },
+  "messages": {
+    "noData": "No data found",
+    "noItemsToDisplay": "There are no items to display right now.",
+    "success": "Operation completed successfully",
+    "error": "Something went wrong. Please try again.",
+    "saved": "Saved successfully",
+    "deleted": "Deleted successfully",
+    "updated": "Updated successfully"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "select": {
+    "placeholder": "Select an option...",
+    "searchPlaceholder": "Search...",
+    "noOptions": "No options"
+  },
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "toggleTheme": "Toggle theme"
+  },
+  "language": {
+    "switchToKhmer": "Switch to Khmer",
+    "switchToEnglish": "Switch to English",
+    "toggleLanguage": "Toggle language"
+  },
+  "search": {
+    "placeholder": "Search projects, articles, pages...",
+    "adminPlaceholder": "Search admin users, projects, posts, docs...",
+    "searching": "Searching...",
+    "searchingAdmin": "Searching admin data...",
+    "noResults": "No results found for \"{{query}}\".",
+    "prompt": "Type to search APEX projects, articles, and pages...",
+    "adminPrompt": "Search across users, projects, articles, messages, and docs...",
+    "filters": {
+      "all": "All",
+      "projects": "Projects",
+      "articles": "Articles",
+      "pages": "Pages",
+      "users": "Users",
+      "posts": "Posts",
+      "messages": "Messages",
+      "docs": "Docs"
+    },
+    "sections": {
+      "projects": "Projects",
+      "articles": "Articles & Blog",
+      "pages": "Pages",
+      "users": "Users",
+      "posts": "Posts",
+      "docs": "Docs"
+    },
+    "staticPages": {
+      "about": {
+        "title": "About Us",
+        "desc": "Learn about APEX and our mission"
+      },
+      "projects": {
+        "title": "Portfolio Projects",
+        "desc": "Browse our full-stack works"
+      },
+      "blog": {
+        "title": "Blog & Insights",
+        "desc": "Technical articles and tutorials"
+      },
+      "join": {
+        "title": "Careers & Join Us",
+        "desc": "Join the APEX engineering team"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "desc": "Get in touch with our team"
+      },
+      "docs": {
+        "title": "Documentation",
+        "desc": "Guides, APIs, and team standards"
+      }
+    }
+  },
+  "editor": {
+    "placeholder": "Write your content here...",
+    "tabs": {
+      "editor": "Editor",
+      "split": "Split",
+      "preview": "Preview"
+    },
+    "chars": "{{count}} chars",
+    "uploading": "Uploading...",
+    "uploadFailed": "Failed to upload image",
+    "enterLinkUrl": "Enter link URL:",
+    "enterImageUrl": "Enter image URL:",
+    "linkText": "Link text",
+    "imageAlt": "image",
+    "tableTemplate": "\n| Column 1 | Column 2 |\n| --- | --- |\n| Value 1 | Value 2 |\n",
+    "toolbar": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "strikethrough": "Strikethrough",
+      "h1": "Heading 1",
+      "h2": "Heading 2",
+      "h3": "Heading 3",
+      "bulletList": "Bullet list",
+      "bulletListLabel": "List",
+      "numberedList": "Numbered list",
+      "numberedListLabel": "1. List",
+      "quote": "Quote",
+      "code": "Inline code",
+      "codeBlock": "Code block",
+      "codeBlockLabel": "CodeBlock",
+      "link": "Link",
+      "upload": "Upload",
+      "imageUrl": "Image URL",
+      "urlImageLabel": "URL Image",
+      "table": "Table",
+      "horizontalLine": "Horizontal line",
+      "hrLabel": "HR"
+    }
+  },
+  "storage": {
+    "title": "Storage Usage",
+    "storageLabel": "Storage",
+    "notConfigured": "Not configured",
+    "cloudinaryFallback": "Media & Image CDN",
+    "supabaseFallback": "S3 Object Storage",
+    "loadError": "Failed to load storage statistics.",
+    "refreshError": "Failed to refresh storage statistics.",
+    "na": "N/A"
+  },
+  "api": {
+    "queuedForApproval": "Your action has been queued for super-admin approval.",
+    "tooManyRequests": "Too many requests. Please wait {{seconds}} seconds and try again.",
+    "missingBlogSlug": "Missing blog post slug"
+  }
+}

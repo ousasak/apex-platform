@@ -1,0 +1,650 @@
+{
+  "shared": {
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram",
+      "facebook": "Facebook",
+      "email": "Email"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Senior Full-Stack Software Engineer",
+      "titleLine1": "Architecting modern,",
+      "titleLine2": "high-impact solutions",
+      "subtitle": "I design and build robust web applications, scalable backends, and digital products with clean code, resilience, and performance.",
+      "exploreProjects": "View My Work",
+      "meetTheTeam": "Hire Me",
+      "downloadCv": "Download CV"
+    },
+    "stats": {
+      "teamMembers": "Years Experience",
+      "projectsShipped": "Projects Built",
+      "passion": "Satisfaction",
+      "linesOfCode": "Tech <accent>Skills</accent>"
+    },
+    "services": {
+      "label": "What we do",
+      "heading": "Turning ideas into<br /><accent>reality</accent>",
+      "subheading": "We specialize in building full-stack applications, from concept to deployment, using the latest technologies and best practices.",
+      "items": {
+        "webDev": {
+          "title": "Web Development",
+          "description": "Modern, responsive web applications built with React, Laravel, and cutting-edge frameworks for optimal user experience."
+        },
+        "mobileApps": {
+          "title": "Mobile Apps",
+          "description": "Cross-platform mobile applications with Flutter, delivering native performance on iOS and Android from a single codebase."
+        },
+        "apiBackend": {
+          "title": "API & Backend",
+          "description": "Scalable RESTful APIs and robust backend systems with Laravel, PostgreSQL, and Docker for enterprise-grade reliability."
+        },
+        "uiUxDesign": {
+          "title": "UI/UX Design",
+          "description": "Beautiful, intuitive interfaces designed with Tailwind CSS, focusing on accessibility, responsiveness, and delightful interactions."
+        },
+        "devOpsCloud": {
+          "title": "DevOps & Cloud",
+          "description": "Containerized deployments with Docker, CI/CD pipelines, and cloud infrastructure management for seamless operations."
+        },
+        "openSource": {
+          "title": "Open Source",
+          "description": "Contributing to the developer community with open-source projects, libraries, and tools that solve real problems."
+        }
+      }
+    },
+    "projects": {
+      "label": "Our work",
+      "heading": "Featured <accent>Projects</accent>",
+      "viewAll": "View all projects",
+      "viewProject": "View project",
+      "empty": "Projects coming soon"
+    },
+    "team": {
+      "label": "Our team",
+      "heading": "Meet the people<br />behind the <accent>code</accent>",
+      "subheading": "We're a group of passionate students and developers from Phnom Penh, Cambodia. United by our love for clean code and innovative solutions.",
+      "membersCount": "{{count}}+ Members",
+      "roleSubtitle": "Full-stack developers",
+      "aboutCta": "About our team",
+      "values": {
+        "innovation": {
+          "title": "Innovation First",
+          "desc": "We push boundaries with modern tech, always exploring new solutions to challenge the status quo."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "desc": "Open-source mindset, team-driven development."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "desc": "High standards in code quality, architecture, and user experience."
+        }
+      }
+    },
+    "blog": {
+      "label": "Blog",
+      "heading": "Latest <accent>Articles</accent>",
+      "readAll": "Read all articles",
+      "readingTime": "{{minutes}} min read"
+    },
+    "techStack": {
+      "label": "Technologies",
+      "heading": "Our <accent>Tech Stack</accent>",
+      "subheading": "The tools and frameworks we use to build exceptional digital products."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About",
+      "titleLine1": "Passionate about",
+      "titleLine2": "building the future",
+      "subtitle": "We are a team of developers from Cambodia, united by a shared vision of using technology to create meaningful impact.",
+      "quote": "\"ជីវិតដែលរស់នៅដើម្បីអ្នកដទៃ ទើបជាជីវិតដែលមានតម្លៃ\""
+    },
+    "story": {
+      "label": "Our story",
+      "heading": "From university to<br /><accent>real-world impact</accent>",
+      "paragraph1": "APEX was founded by a group of Year-4 IT engineering students at Norton University. United by the shared vision of using technology to create positive impact, we came together to build real-world projects, learn from each other, and contribute to the Cambodian tech ecosystem.",
+      "paragraph2": "Our name <bold>\"APEX\"</bold> reflects our mission: to package knowledge and deliver it through code. From web applications to mobile apps, we tackle challenges with a cosmic-level ambition.",
+      "miniStats": {
+        "membersValue": "4+",
+        "membersLabel": "Team Members",
+        "foundedValue": "2024",
+        "foundedLabel": "Founded",
+        "universityValue": "Norton University",
+        "universityLabel": "University"
+      }
+    },
+    "codeWindow": {
+      "linesCount": "{{count}} lines",
+      "scanProfile": "Scan team profile",
+      "exploreTag": "explore",
+      "statusDone": "done",
+      "statusRunning": "running",
+      "thoughtFor": "Thought for {{seconds}}s",
+      "editAction": "Edit",
+      "prompt": "Build APEX team profile module.",
+      "thinking": "Thinking...",
+      "footerBuild": "Build",
+      "footerExplore": "Explore →"
+    },
+    "purpose": {
+      "label": "Purpose",
+      "heading": "What drives <accent>us forward</accent>",
+      "mission": {
+        "title": "Our Mission",
+        "description": "Learning to be a pillar for one another, as we strive to become a leading student-driven tech team, inspiring the next generation of Cambodian developers and proving that world-class software can be built anywhere through:",
+        "pillar1": "<bold>Common Thinking</bold> – Harnessing collective wisdom to solve complex problems.",
+        "pillar2": "<bold>Common Action</bold> – Working in unity to transform ideas into reality.",
+        "pillar3": "<bold>Common Responsibility</bold> – Standing together for every outcome we deliver."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "Learning to be a pillar for one another, as we strive to become a leading student-driven tech team, inspiring the next generation of Cambodian developers and proving that world-class software can be built anywhere."
+      }
+    },
+    "team": {
+      "label": "The team",
+      "heading": "Meet the <accent>people</accent>",
+      "subtitle": "Every great product is built by great people. Here's the crew behind APEX.",
+      "founderBadge": "Founder",
+      "fallbackRoles": {
+        "founderLead": "Founder & Lead",
+        "coFounder": "Co-Founder"
+      },
+      "fallbackSpecialties": {
+        "fullStack": "Full-Stack Development",
+        "backend": "Backend Engineering",
+        "frontend": "Frontend Development",
+        "mobile": "Mobile Development"
+      }
+    },
+    "values": {
+      "label": "Core values",
+      "heading": "What we <accent>believe in</accent>",
+      "subtitle": "These principles guide every line of code we write and every decision we make.",
+      "items": {
+        "innovation": {
+          "title": "Innovation First",
+          "description": "We embrace new technologies and creative approaches, always pushing boundaries to solve problems in unique ways."
+        },
+        "qualityCode": {
+          "title": "Quality Code",
+          "description": "Clean, maintainable, and well-documented code is at the heart of everything we build. We follow best practices always."
+        },
+        "collaboration": {
+          "title": "Team Collaboration",
+          "description": "We believe in the power of teamwork. Every member brings unique skills that combine to create something greater."
+        },
+        "communityImpact": {
+          "title": "Community Impact",
+          "description": "Technology should serve the community. We contribute to Cambodia's digital growth and inspire future developers."
+        },
+        "continuousLearning": {
+          "title": "Continuous Learning",
+          "description": "As students, learning is in our DNA. We constantly explore new technologies, share knowledge, and grow together."
+        },
+        "openSource": {
+          "title": "Open Source",
+          "description": "We believe in giving back. Open source is part of our culture — sharing code, tools, and knowledge with the world."
+        }
+      }
+    },
+    "timeline": {
+      "label": "Journey",
+      "heading": "Our <accent>Timeline</accent>",
+      "items": {
+        "early2024": {
+          "date": "Early 2024",
+          "title": "The Idea",
+          "description": "Four IT engineering students at Norton University started discussing forming a team to build real-world projects together."
+        },
+        "mid2024": {
+          "date": "Mid 2024",
+          "title": "Team Formation",
+          "description": "APEX was officially formed. We chose our name to represent packaging knowledge through code."
+        },
+        "late2024": {
+          "date": "Late 2024",
+          "title": "First Projects",
+          "description": "We began building our first collaborative projects, learning modern tech stacks and agile workflows."
+        },
+        "year2025": {
+          "date": "2025",
+          "title": "Growing & Shipping",
+          "description": "Launched our team website, expanded our portfolio, and started contributing to the Cambodian tech community."
+        },
+        "future": {
+          "date": "The Future",
+          "title": "Scaling Up",
+          "description": "Aiming to take on larger projects, welcome new members, and make an even bigger impact in the tech scene."
+        }
+      }
+    },
+    "differentiators": {
+      "label": "Why us",
+      "heading": "What makes us <accent>different</accent>",
+      "items": {
+        "studentDriven": {
+          "title": "Student-Driven",
+          "description": "Fresh perspectives and cutting-edge knowledge straight from university."
+        },
+        "fullStack": {
+          "title": "Full-Stack",
+          "description": "End-to-end development from database design to pixel-perfect UIs."
+        },
+        "modernStack": {
+          "title": "Modern Stack",
+          "description": "React, Laravel, Flutter, Docker — always using the latest and best tools."
+        },
+        "dedicatedPassion": {
+          "title": "Dedicated Passion",
+          "description": "Deep dedication to craft, learning together, and creating software that matters."
+        }
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "heading": "Let's <accent>Connect</accent>",
+      "subtitle": "Have a question, idea, or want to collaborate? We'd love to hear from you."
+    },
+    "info": {
+      "label": "Reach us",
+      "heading": "Ways to <accent>get in touch</accent>",
+      "emailLabel": "Email",
+      "locationLabel": "Location",
+      "locationValue": "Phnom Penh, Cambodia",
+      "githubLabel": "GitHub",
+      "availabilityLabel": "Availability",
+      "availabilityValue": "Mon - Sat, 8AM - 8PM"
+    },
+    "form": {
+      "title": "Send a Message",
+      "subtitle": "We typically respond within 24 hours",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. We'll get back to you as soon as possible.",
+      "sendAnother": "Send another message",
+      "nameLabel": "Your Name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Your Email",
+      "emailPlaceholder": "john@example.com",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Collaboration opportunity...",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us what you have in mind...",
+      "sending": "Sending...",
+      "submit": "Send Message",
+      "errorFailed": "Failed to send. Please try again."
+    },
+    "community": {
+      "title": "Join the Community",
+      "description": "Connect with other passionate developers, get help with our open-source projects, and stay updated."
+    }
+  },
+  "joinUs": {
+    "hero": {
+      "eyebrow": "Careers",
+      "titleLine1": "Build the",
+      "titleLine2": "Future With Us",
+      "subtitle": "We're looking for passionate developers, designers, and creators who want to build meaningful software and grow together.",
+      "applyNow": "Apply Now"
+    },
+    "whyJoin": {
+      "label": "Why join",
+      "heading": "Why <accent>APEX</accent>?",
+      "subheading": "Here is what you get when you become part of our team.",
+      "perks": {
+        "realProjects": {
+          "title": "Real Projects",
+          "desc": "Work on production apps used by real people — not toy demos."
+        },
+        "mentorship": {
+          "title": "Mentorship",
+          "desc": "Learn from experienced developers through code review and pairing sessions."
+        },
+        "community": {
+          "title": "Community",
+          "desc": "Join a supportive network of developers building Cambodia's tech future."
+        },
+        "growth": {
+          "title": "Growth",
+          "desc": "Build your portfolio, sharpen your skills, and accelerate your career."
+        }
+      }
+    },
+    "lookFor": {
+      "label": "Qualifications",
+      "heading": "What We <accent>Look For</accent>",
+      "items": {
+        "passion": {
+          "title": "Passion for coding and technology",
+          "desc": "You love building things with code and are always looking for new challenges."
+        },
+        "learning": {
+          "title": "Willingness to learn and grow",
+          "desc": "You don't need to know everything — just be eager to learn."
+        },
+        "collaboration": {
+          "title": "Team collaboration mindset",
+          "desc": "You communicate well, give constructive feedback, and support your teammates."
+        },
+        "language": {
+          "title": "At least one programming language",
+          "desc": "Familiarity with any language or framework — JavaScript, Python, PHP, Java, etc."
+        },
+        "problemSolving": {
+          "title": "Problem-solving attitude",
+          "desc": "You enjoy debugging, tackling tricky logic, and finding creative solutions."
+        }
+      }
+    },
+    "youGet": {
+      "label": "Benefits",
+      "heading": "What You'll <accent>Get</accent>",
+      "items": {
+        "experience": {
+          "title": "Real project experience",
+          "desc": "Work on production-grade applications from start to deployment."
+        },
+        "mentorship": {
+          "title": "Mentorship from seniors",
+          "desc": "Get code reviews, guidance, and pair-programming sessions with experienced devs."
+        },
+        "portfolio": {
+          "title": "Portfolio-worthy projects",
+          "desc": "Build projects you can proudly show to future employers or clients."
+        },
+        "networking": {
+          "title": "Tech community networking",
+          "desc": "Connect with developers, attend meetups, and grow your professional network."
+        },
+        "flexible": {
+          "title": "Flexible & remote-friendly",
+          "desc": "Work from anywhere — we value output over hours at a desk."
+        }
+      }
+    },
+    "roles": {
+      "label": "Positions",
+      "heading": "Open <accent>Roles</accent>",
+      "tags": {
+        "mobile": "Mobile",
+        "prototyping": "Prototyping",
+        "research": "Research"
+      },
+      "items": {
+        "frontend": {
+          "title": "Frontend Developer",
+          "desc": "Build beautiful, responsive interfaces with React, Vue.js, and modern CSS."
+        },
+        "backend": {
+          "title": "Backend Developer",
+          "desc": "Architect robust APIs, optimize database queries, and ensure scalable infrastructure."
+        },
+        "fullStack": {
+          "title": "Full-Stack Developer",
+          "desc": "Own features end-to-end, from database schema to pixel-perfect UI."
+        },
+        "mobile": {
+          "title": "Mobile Developer",
+          "desc": "Create cross-platform mobile apps with React Native or Flutter."
+        },
+        "uiUx": {
+          "title": "UI/UX Designer",
+          "desc": "Design intuitive, user-centered interfaces and delightful experiences."
+        }
+      }
+    },
+    "process": {
+      "label": "Process",
+      "heading": "How It <accent>Works</accent>",
+      "subheading": "Our application process is straightforward and transparent.",
+      "steps": {
+        "apply": {
+          "title": "Apply",
+          "desc": "Fill out the form with your info, skills, and motivation."
+        },
+        "review": {
+          "title": "Review",
+          "desc": "Our team reviews your application within a few days."
+        },
+        "interview": {
+          "title": "Interview",
+          "desc": "A casual chat to learn about you and answer your questions."
+        },
+        "welcome": {
+          "title": "Welcome!",
+          "desc": "You're in! Start collaborating on real projects right away."
+        }
+      }
+    },
+    "form": {
+      "title": "Apply Now",
+      "requiredHint": "Fields marked with * are required",
+      "successTitle": "Application Submitted!",
+      "successMessage": "Thank you for your interest in joining APEX. We'll review your application and get back to you within a few days.",
+      "submitAnother": "Submit another application",
+      "steps": {
+        "personalInfo": "Personal Info",
+        "skillsLinks": "Skills & Links",
+        "motivation": "Motivation"
+      },
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Sokha Chea",
+      "emailLabel": "Email",
+      "emailPlaceholder": "sokha@example.com",
+      "roleLabel": "Role Applied For",
+      "roleOptions": {
+        "placeholder": "Select a position",
+        "frontend": "Frontend Developer",
+        "backend": "Backend Developer",
+        "fullStack": "Full-Stack Developer",
+        "mobile": "Mobile Developer",
+        "uiUx": "UI/UX Designer",
+        "devops": "DevOps Engineer",
+        "other": "Other"
+      },
+      "skillsLabel": "Skills",
+      "skillsPlaceholder": "e.g. React, Vue.js, Laravel, PostgreSQL, Docker",
+      "skillsHelper": "Separate with commas",
+      "githubLabel": "GitHub URL",
+      "githubPlaceholder": "https://github.com/username",
+      "linkedinLabel": "LinkedIn URL",
+      "linkedinPlaceholder": "https://linkedin.com/in/username",
+      "portfolioLabel": "Portfolio / Website URL",
+      "portfolioPlaceholder": "https://myportfolio.dev",
+      "motivationLabel": "Why do you want to join APEX?",
+      "motivationPlaceholder": "Tell us about yourself, your background, and why you are excited to build with us...",
+      "back": "Back",
+      "nextStep": "Next Step",
+      "submitting": "Submitting...",
+      "submit": "Submit Application",
+      "errors": {
+        "requiredFields": "Please fill in all required fields before continuing.",
+        "skillsRequired": "Please list your skills before continuing.",
+        "submitFailed": "Failed to submit. Please try again."
+      }
+    },
+    "faq": {
+      "label": "FAQ",
+      "heading": "Frequently Asked <accent>Questions</accent>",
+      "items": {
+        "experience": {
+          "q": "Do I need professional experience?",
+          "a": "Not at all! We welcome students, self-taught developers, and anyone passionate about coding. What matters most is your willingness to learn and grow with the team."
+        },
+        "paid": {
+          "q": "Is this a paid position?",
+          "a": "APEX is a community-driven team focused on learning and building together. Currently, positions are volunteer-based, but team members gain real experience, mentorship, and portfolio projects."
+        },
+        "commitment": {
+          "q": "What is the time commitment?",
+          "a": "We're flexible. Most members contribute 5-10 hours per week, but you can adjust based on your schedule. We value consistency over quantity."
+        },
+        "techStack": {
+          "q": "What tech stack do you use?",
+          "a": "Our primary stack is React/Vue.js + Tailwind CSS on the frontend and Laravel + PostgreSQL on the backend, all containerized with Docker. But we are always exploring new technologies."
+        },
+        "location": {
+          "q": "Where is the team based?",
+          "a": "We're based in Phnom Penh, Cambodia, but work entirely remote. You can contribute from anywhere as long as you communicate and collaborate effectively."
+        },
+        "reviewTime": {
+          "q": "How long does the review process take?",
+          "a": "We typically review applications within 3-5 business days. You'll receive an email with our decision and next steps."
+        }
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 11, 2026",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduction",
+        "content": "Welcome to APEX (\"we\", \"our\", or \"us\"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <siteLink>www.apex-team.space</siteLink>."
+      },
+      "informationWeCollect": {
+        "title": "2. Information We Collect",
+        "intro": "We may collect the following types of information:",
+        "items": {
+          "account": "<bold>Account Information:</bold> When you register, we collect your name, email address, and password. If you sign in with Google or GitHub, we receive your name, email, and profile picture from those services.",
+          "profile": "<bold>Profile Information:</bold> You may optionally provide a bio, avatar, and social links (GitHub, LinkedIn).",
+          "usage": "<bold>Usage Data:</bold> We automatically collect information about how you interact with our website, including pages visited, time spent, and browser type.",
+          "contact": "<bold>Contact Information:</bold> When you use our contact form, we collect your name, email, and message content."
+        }
+      },
+      "howWeUse": {
+        "title": "3. How We Use Your Information",
+        "items": {
+          "manageAccount": "To create and manage your account",
+          "provideServices": "To provide and maintain our services",
+          "respondInquiries": "To respond to your inquiries and contact messages",
+          "sendUpdates": "To send you updates and notifications (with your consent)",
+          "improveWebsite": "To improve our website and user experience",
+          "protectAbuse": "To protect against unauthorized access and abuse"
+        }
+      },
+      "thirdParty": {
+        "title": "4. Third-Party Services",
+        "intro": "We use third-party services that may collect information about you:",
+        "items": {
+          "google": "<bold>Google OAuth:</bold> For authentication. Subject to <policyLink>Google's Privacy Policy</policyLink>.",
+          "github": "<bold>GitHub OAuth:</bold> For authentication. Subject to <policyLink>GitHub's Privacy Statement</policyLink>.",
+          "cloudflare": "<bold>Cloudflare Turnstile:</bold> For bot protection. Subject to <policyLink>Cloudflare's Privacy Policy</policyLink>.",
+          "cloudinary": "<bold>Cloudinary:</bold> For image hosting and delivery."
+        }
+      },
+      "dataSecurity": {
+        "title": "5. Data Security",
+        "content": "We implement appropriate technical and organizational security measures to protect your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security."
+      },
+      "dataRetention": {
+        "title": "6. Data Retention",
+        "content": "We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy, unless a longer retention period is required or permitted by law. You may request deletion of your account and associated data at any time by contacting us."
+      },
+      "yourRights": {
+        "title": "7. Your Rights",
+        "intro": "You have the right to:",
+        "items": {
+          "access": "Access the personal information we hold about you",
+          "correction": "Request correction of inaccurate data",
+          "deletion": "Request deletion of your personal data",
+          "withdrawConsent": "Withdraw consent for data processing at any time"
+        }
+      },
+      "childrenPrivacy": {
+        "title": "8. Children's Privacy",
+        "content": "Our services are not directed to individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected data from a child under 13, we will take steps to delete it promptly."
+      },
+      "changes": {
+        "title": "9. Changes to This Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Last updated\" date."
+      },
+      "contact": {
+        "title": "10. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us through our <contactLink>Contact Page</contactLink>."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: April 11, 2026",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing or using the APEX website at <siteLink>www.apex-team.space</siteLink> (\"the Service\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service."
+      },
+      "description": {
+        "title": "2. Description of Service",
+        "content": "APEX provides a platform for showcasing development projects, publishing blog articles, and building a community of developers. We offer user accounts, project portfolios, a blog, and team membership applications."
+      },
+      "userAccounts": {
+        "title": "3. User Accounts",
+        "items": {
+          "register": "You may register using an email/password or through third-party providers (Google, GitHub).",
+          "confidentiality": "You are responsible for maintaining the confidentiality of your account credentials.",
+          "accurateInfo": "You must provide accurate and complete information when creating your account.",
+          "activities": "You are responsible for all activities that occur under your account.",
+          "termination": "We reserve the right to suspend or terminate accounts that violate these terms."
+        }
+      },
+      "userContent": {
+        "title": "4. User Content",
+        "intro": "When you submit content (comments, blog posts, project descriptions) to the Service:",
+        "items": {
+          "ownership": "You retain ownership of your original content.",
+          "license": "You grant us a non-exclusive, worldwide license to display and distribute your content on the platform.",
+          "acceptableUse": "You agree not to post content that is illegal, harmful, threatening, abusive, defamatory, or otherwise objectionable.",
+          "removal": "We reserve the right to remove any content that violates these terms."
+        }
+      },
+      "intellectualProperty": {
+        "title": "5. Intellectual Property",
+        "content": "The Service, including its design, logos, text, graphics, and code, is owned by APEX and is protected by intellectual property laws. You may not copy, modify, distribute, or reverse-engineer any part of the Service without our prior written consent."
+      },
+      "prohibitedConduct": {
+        "title": "6. Prohibited Conduct",
+        "intro": "You agree not to:",
+        "items": {
+          "unlawful": "Use the Service for any unlawful purpose",
+          "unauthorizedAccess": "Attempt to gain unauthorized access to any part of the Service",
+          "disrupt": "Interfere with or disrupt the Service or its infrastructure",
+          "maliciousCode": "Upload malicious code, viruses, or harmful content",
+          "impersonate": "Impersonate any person or entity",
+          "scrape": "Scrape, crawl, or use automated tools to collect data without permission"
+        }
+      },
+      "thirdParty": {
+        "title": "7. Third-Party Services",
+        "content": "The Service integrates with third-party services such as Google and GitHub for authentication. Your use of these services is governed by their respective terms and privacy policies. We are not responsible for the practices of third-party services."
+      },
+      "disclaimer": {
+        "title": "8. Disclaimer of Warranties",
+        "content": "The Service is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied. We do not guarantee that the Service will be uninterrupted, error-free, or secure."
+      },
+      "liability": {
+        "title": "9. Limitation of Liability",
+        "content": "To the fullest extent permitted by law, APEX shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Service."
+      },
+      "changes": {
+        "title": "10. Changes to Terms",
+        "content": "We may update these Terms of Service from time to time. We will notify you of significant changes by posting the new terms on this page and updating the \"Last updated\" date. Continued use of the Service after changes constitutes acceptance of the revised terms."
+      },
+      "contact": {
+        "title": "11. Contact Us",
+        "content": "If you have any questions about these Terms of Service, please contact us through our <contactLink>Contact Page</contactLink>."
+      }
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "message": "Page not found",
+    "backHome": "Back to Home"
+  }
+}

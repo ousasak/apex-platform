@@ -1,0 +1,242 @@
+{
+  "common": {
+    "author": "អ្នកនិពន្ធ",
+    "clear": "សម្អាត",
+    "cancel": "បោះបង់",
+    "save": "រក្សាទុក",
+    "saving": "កំពុងរក្សាទុក...",
+    "create": "បង្កើត",
+    "creating": "កំពុងបង្កើត...",
+    "edit": "កែសម្រួល",
+    "delete": "លុប",
+    "deleting": "កំពុងលុប...",
+    "done": "រួចរាល់",
+    "remove": "ដកចេញ",
+    "new": "ថ្មី",
+    "none": "គ្មាន",
+    "optional": "ជាជម្រើស",
+    "uncategorized": "គ្មានប្រភេទ",
+    "minRead": "អាន {{minutes}} នាទី",
+    "minShort": "{{minutes}} នាទី",
+    "viewsCount": "មើល {{count}} ដង"
+  },
+  "status": {
+    "published": "បានផ្សព្វផ្សាយ",
+    "draft": "ព្រាង",
+    "archived": "បានទុកក្នុងបណ្ណសារ",
+    "pending": "កំពុងរង់ចាំ"
+  },
+  "public": {
+    "hero": {
+      "eyebrow": "ការយល់ដឹង",
+      "titlePrefix": "ការយល់ដឹង និង",
+      "titleHighlight": "រឿងរ៉ាវ",
+      "subtitle": "មេរៀនណែនាំ ព័ត៌មានថ្មីៗពីក្រុមការងារ និងទស្សនៈអំពីការបង្កើតកម្មវិធី — ពីក្រុមការងារ APEX។"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកអត្ថបទ...",
+      "allCategories": "គ្រប់ប្រភេទ",
+      "articleCountOne": "អត្ថបទ {{count}}",
+      "articleCountOther": "អត្ថបទ {{count}}",
+      "articleCountFilteredOne": "អត្ថបទ {{count}} ត្រូវនឹងការចម្រាញ់របស់អ្នក",
+      "articleCountFilteredOther": "អត្ថបទ {{count}} ត្រូវនឹងការចម្រាញ់របស់អ្នក"
+    },
+    "featured": {
+      "label": "ពិសេស",
+      "titlePrefix": "អត្ថបទ",
+      "titleHighlight": "លេចធ្លោ",
+      "badge": "ពិសេស",
+      "readArticle": "អានអត្ថបទ"
+    },
+    "grid": {
+      "label": "អត្ថបទទាំងអស់",
+      "titlePrefix": "អត្ថបទថ្មីៗពី",
+      "titleHighlight": "ក្រុមការងារ",
+      "read": "អាន"
+    },
+    "empty": {
+      "title": "រកមិនឃើញអត្ថបទ",
+      "message": "សូមសាកល្បងកែសម្រួលការស្វែងរក ឬការចម្រាញ់របស់អ្នក។"
+    }
+  },
+  "post": {
+    "defaultTitle": "អត្ថបទ",
+    "pageTitle": "{{title}} – APEX",
+    "notFoundPageTitle": "រកមិនឃើញអត្ថបទ – APEX",
+    "backToBlog": "ប្លុក",
+    "backToAllArticles": "ត្រឡប់ទៅអត្ថបទទាំងអស់",
+    "articleInfo": {
+      "title": "ព័ត៌មានអត្ថបទ",
+      "published": "បានផ្សព្វផ្សាយ",
+      "readingTime": "រយៈពេលអាន",
+      "views": "ចំនួនអ្នកមើល",
+      "category": "ប្រភេទ"
+    },
+    "share": {
+      "title": "ចែករំលែកអត្ថបទនេះ",
+      "facebook": "ចែករំលែកលើ Facebook",
+      "telegram": "ចែករំលែកលើ Telegram",
+      "whatsapp": "ចែករំលែកលើ WhatsApp",
+      "x": "ចែករំលែកលើ X",
+      "linkedin": "ចែករំលែកលើ LinkedIn",
+      "copyLink": "ចម្លងតំណ",
+      "linkCopied": "បានចម្លងតំណ!"
+    },
+    "notFound": {
+      "title": "រកមិនឃើញអត្ថបទ",
+      "message": "អត្ថបទប្លុកដែលអ្នកកំពុងស្វែងរកមិនមានទេ។"
+    }
+  },
+  "admin": {
+    "title": "អត្ថបទប្លុក",
+    "subtitle": "គ្រប់គ្រងអត្ថបទ មេរៀនណែនាំ និងសេចក្តីប្រកាស",
+    "newPost": "អត្ថបទថ្មី",
+    "deleteSelected": "លុប ({{count}})",
+    "bulkDeleteConfirm": "តើអ្នកចង់លុបអត្ថបទចំនួន {{count}} មែនទេ?",
+    "stats": {
+      "totalPosts": "អត្ថបទសរុប",
+      "drafts": "ព្រាង",
+      "totalViews": "ចំនួនមើលសរុប"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកតាមចំណងជើង...",
+      "allStatus": "គ្រប់ស្ថានភាព",
+      "allCategories": "គ្រប់ប្រភេទ",
+      "allSeries": "គ្រប់ស៊េរី"
+    },
+    "table": {
+      "selectAll": "ជ្រើសរើសអត្ថបទទាំងអស់",
+      "selectPost": "ជ្រើសរើស {{title}}",
+      "post": "អត្ថបទ",
+      "category": "ប្រភេទ",
+      "status": "ស្ថានភាព",
+      "views": "ចំនួនមើល",
+      "date": "កាលបរិច្ឆេទ",
+      "actions": "សកម្មភាព",
+      "loading": "កំពុងផ្ទុកអត្ថបទ...",
+      "empty": "រកមិនឃើញអត្ថបទ"
+    },
+    "deleteModal": {
+      "title": "លុបអត្ថបទ",
+      "message": "តើអ្នកប្រាកដជាចង់លុប <strong>{{title}}</strong> មែនទេ?"
+    },
+    "toast": {
+      "deleted": "បានលុបអត្ថបទ",
+      "queuedForApproval": "បានដាក់ចូលជួររង់ចាំការអនុម័ត",
+      "deleteFailed": "ការលុបបានបរាជ័យ",
+      "bulkDeleted": "បានលុបអត្ថបទចំនួន {{count}}",
+      "bulkDeleteFailed": "ការលុបខ្លះបានបរាជ័យ"
+    }
+  },
+  "form": {
+    "newPost": "អត្ថបទថ្មី",
+    "editPost": "កែសម្រួលអត្ថបទ",
+    "createPost": "បង្កើតអត្ថបទ",
+    "editSubtitle": "ធ្វើបច្ចុប្បន្នភាពខ្លឹមសារ និងការកំណត់អត្ថបទ",
+    "createSubtitle": "សរសេរអត្ថបទថ្មីសម្រាប់ប្លុករបស់អ្នក",
+    "sections": {
+      "postDetails": "ព័ត៌មានលម្អិតអត្ថបទ",
+      "content": "ខ្លឹមសារ",
+      "coverImage": "រូបភាពគម្រប",
+      "publishSettings": "ការកំណត់ការផ្សព្វផ្សាយ",
+      "series": "ស៊េរី",
+      "tags": "ស្លាក"
+    },
+    "fields": {
+      "title": "ចំណងជើង",
+      "permalink": "តំណអចិន្ត្រៃយ៍ (Permalink)",
+      "excerpt": "សេចក្តីសង្ខេប",
+      "uploadTo": "ផ្ទុកឡើងទៅ",
+      "status": "ស្ថានភាព",
+      "category": "ប្រភេទ"
+    },
+    "placeholders": {
+      "title": "ចំណងជើងអត្ថបទរបស់អ្នក",
+      "slugFallback": "post-title",
+      "excerpt": "សេចក្តីសង្ខេបខ្លីៗដើម្បីទាក់ទាញអ្នកអាន...",
+      "selectCategory": "ជ្រើសរើសប្រភេទ"
+    },
+    "storage": {
+      "supabase": "Supabase",
+      "cloudinary": "Cloudinary"
+    },
+    "coverImage": {
+      "previewAlt": "ការមើលរូបភាពគម្របជាមុន",
+      "uploadPrompt": "ចុចដើម្បីផ្ទុករូបភាពគម្របឡើង",
+      "uploadHint": "PNG, JPG រហូតដល់ 2MB"
+    },
+    "tags": {
+      "empty": "មិនមានស្លាកទេ"
+    },
+    "actions": {
+      "resetFromTitle": "កំណត់ឡើងវិញតាមចំណងជើង",
+      "updatePost": "ធ្វើបច្ចុប្បន្នភាពអត្ថបទ",
+      "createPost": "បង្កើតអត្ថបទ"
+    },
+    "seriesModal": {
+      "titlePlaceholder": "ចំណងជើងស៊េរី",
+      "descriptionPlaceholder": "ការពិពណ៌នា (ជាជម្រើស)"
+    },
+    "toast": {
+      "loadFailed": "មិនអាចផ្ទុកអត្ថបទបានទេ",
+      "seriesCreated": "បានបង្កើតស៊េរី!",
+      "seriesCreateFailed": "មិនអាចបង្កើតស៊េរីបានទេ",
+      "updated": "បានធ្វើបច្ចុប្បន្នភាពអត្ថបទដោយជោគជ័យ!",
+      "created": "បានបង្កើតអត្ថបទដោយជោគជ័យ!",
+      "saveFailed": "មិនអាចរក្សាទុកអត្ថបទបានទេ"
+    }
+  },
+  "series": {
+    "title": "ស៊េរី",
+    "subtitle": "ប្រមូលផ្តុំអត្ថបទប្លុកជាស៊េរីតាមប្រធានបទ",
+    "newSeries": "ស៊េរីថ្មី",
+    "editSeries": "កែសម្រួលស៊េរី",
+    "searchPlaceholder": "ស្វែងរកស៊េរី...",
+    "table": {
+      "name": "ឈ្មោះ",
+      "slug": "Slug",
+      "description": "ការពិពណ៌នា",
+      "posts": "អត្ថបទ",
+      "created": "បានបង្កើត",
+      "actions": "សកម្មភាព",
+      "loading": "កំពុងផ្ទុកស៊េរី...",
+      "empty": "រកមិនឃើញស៊េរី"
+    },
+    "fields": {
+      "title": "ចំណងជើង",
+      "slug": "Slug",
+      "description": "ការពិពណ៌នា"
+    },
+    "placeholders": {
+      "title": "ឧ. ជំនាញ Docker",
+      "slug": "docker-mastery",
+      "description": "ការពិពណ៌នាស៊េរី..."
+    },
+    "deleteModal": {
+      "title": "លុបស៊េរី",
+      "message": "តើអ្នកចង់លុបស៊េរី <strong>{{name}}</strong> មែនទេ? អត្ថបទនឹងត្រូវរក្សាទុក ហើយមិនមានស៊េរីទេ។"
+    },
+    "toast": {
+      "loadFailed": "មិនអាចផ្ទុកស៊េរីបានទេ",
+      "updated": "បានធ្វើបច្ចុប្បន្នភាពស៊េរី",
+      "created": "បានបង្កើតស៊េរី",
+      "saveFailed": "ការរក្សាទុកបានបរាជ័យ",
+      "deleted": "បានលុបស៊េរី",
+      "deleteFailed": "ការលុបបានបរាជ័យ"
+    }
+  },
+  "seriesDetail": {
+    "defaultTitle": "ស៊េរី",
+    "pageTitle": "{{name}} – @{{username}} | APEX",
+    "fallbackPageTitle": "ស៊េរី – APEX",
+    "badge": "ស៊េរី",
+    "notFound": {
+      "title": "រកមិនឃើញស៊េរី",
+      "message": "ស៊េរីនេះមិនមាន ឬមិនមានទំព័រសាធារណៈទេ។"
+    },
+    "empty": {
+      "title": "មិនមានអត្ថបទក្នុងស៊េរីនេះទេ",
+      "message": "អត្ថបទនឹងបង្ហាញនៅទីនេះនៅពេលដែលពួកវាត្រូវបានផ្សព្វផ្សាយក្នុងស៊េរីនេះ។"
+    }
+  }
+}

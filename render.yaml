@@ -1,0 +1,161 @@
+# =====================================================
+# Render Blueprint — APEX Website
+# =====================================================
+# Deploy: Go to https://render.com → New → Blueprint
+# Connect your GitHub repo and Render will auto-detect this file.
+#
+# Production custom domains:
+#   Backend → APP_URL = https://api.apex-team.space
+#   Backend → FRONTEND_URL = https://apex-team.space
+#   Backend → CORS_ALLOWED_ORIGINS = https://apex-team.space,https://www.apex-team.space
+#   Backend → SITE_URL = https://apex-team.space
+#   Frontend → BACKEND_URL = https://api.apex-team.space
+#   Frontend → NUXT_PUBLIC_API_URL = /api  (same-origin proxy via nginx)
+# =====================================================
+
+services:
+  # -------------------------------------------------
+  # Backend — Laravel 11 API
+  # -------------------------------------------------
+  - type: web
+    name: apex-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    # Static file — passes as soon as PHP is listening (no full Laravel boot).
+    healthCheckPath: /ping.php
+    envVars:
+      - key: APP_NAME
+        value: "APEX"
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        generateValue: true
+      - key: APP_DEBUG
+        value: "false"
+      # Migrations off by default on free tier — concurrent migrate OOMs artisan serve.
+      # Run once manually from Render shell: php artisan migrate --force
+      - key: RUN_MIGRATIONS
+        value: "0"
+      - key: MIGRATE_DELAY_SECONDS
+        value: "120"
+      # Redis TLS + Predis — reduces Postgres query load on managed DB (Upstash).
+      - key: ALLOW_REDIS
+        value: "1"
+      - key: CACHE_DRIVER
+        value: redis
+      - key: CACHE_STORE
+        value: redis
+      - key: SESSION_DRIVER
+        value: redis
+      - key: APP_URL
+        value: https://api.apex-team.space
+      - key: FRONTEND_URL
+        value: https://apex-team.space
+      - key: CORS_ALLOWED_ORIGINS
+        value: https://apex-team.space,https://www.apex-team.space
+      - key: SITE_URL
+        value: https://apex-team.space
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: DB_CONNECTION
+        value: pgsql
+      # External Aiven PostgreSQL (set DB_PASSWORD and optionally DATABASE_URL in Render dashboard)
+      - key: DB_HOST
+        value: apex-db-apex-space.j.aivencloud.com
+      - key: DB_PORT
+        value: "16826"
+      - key: DB_DATABASE
+        value: defaultdb
+      - key: DB_USERNAME
+        value: avnadmin
+      - key: DB_PASSWORD
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: DB_SSLMODE
+        value: require
+      - key: SANCTUM_STATEFUL_DOMAINS
+        value: apex-team.space,www.apex-team.space
+      - key: FILESYSTEM_DISK
+        value: local
+      # ── Upstash Redis (set REDIS_PASSWORD in Render dashboard) ──
+      - key: REDIS_CLIENT
+        value: predis
+      - key: REDIS_SCHEME
+        value: tls
+      - key: REDIS_HOST
+        value: humorous-flounder-79841.upstash.io
+      - key: REDIS_PORT
+        value: "6379"
+      - key: REDIS_PASSWORD
+        sync: false # Set in Render dashboard
+      - key: QUEUE_CONNECTION
+        value: redis
+      - key: TURNSTILE_SECRET_KEY
+        sync: false # Set manually: get from Cloudflare Dashboard → Turnstile → your site → Secret Key
+      # ── Mail (required for Forgot Password emails) ──
+      # Use Resend (resend.com), Mailgun, or any SMTP provider
+      - key: MAIL_MAILER
+        sync: false # e.g. smtp
+      - key: MAIL_HOST
+        sync: false # e.g. smtp.resend.com  or smtp.mailgun.org
+      - key: MAIL_PORT
+        sync: false # e.g. 587
+      - key: MAIL_USERNAME
+        sync: false # e.g. resend (for Resend) or your Mailgun username
+      - key: MAIL_PASSWORD
+        sync: false # your SMTP API key / password
+      - key: MAIL_ENCRYPTION
+        sync: false # tls
+      - key: MAIL_FROM_ADDRESS
+        sync: false # e.g. noreply@yourdomain.com
+      - key: MAIL_FROM_NAME
+        value: "APEX"
+      - key: CLOUDINARY_URL
+        sync: false # Set manually in Render dashboard
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ENDPOINT
+        sync: false
+      - key: SUPABASE_ACCESS_KEY
+        sync: false
+      - key: SUPABASE_SECRET_KEY
+        sync: false
+      - key: SUPABASE_BUCKET
+        sync: false
+      - key: SUPABASE_REGION
+        sync: false
+      - key: GOOGLE_REDIRECT_URI
+        value: https://api.apex-team.space/auth/google/callback
+      - key: GITHUB_REDIRECT_URI
+        value: https://api.apex-team.space/auth/github/callback
+
+  # -------------------------------------------------
+  # Webclient — React + Nginx (production build)
+  # -------------------------------------------------
+  - type: web
+    name: apex-webclient
+    runtime: docker
+    dockerfilePath: ./webclient/Dockerfile
+    dockerContext: ./webclient
+    plan: free
+    envVars:
+      - key: BACKEND_URL
+        value: https://api.apex-team.space
+      - key: NUXT_API_PROXY_TARGET
+        value: https://api.apex-team.space
+      - key: NUXT_PUBLIC_API_URL
+        value: /api
+      - key: NUXT_PUBLIC_SITE_URL
+        value: https://apex-team.space
+
+# Database: Aiven PostgreSQL (configure via backend env vars above).
+# Remove or ignore any old Render Postgres (apex-db) service if you no longer use it.

@@ -1,0 +1,285 @@
+{
+  "common": {
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "edit": "Edit",
+    "close": "Close",
+    "somethingWentWrong": "Something went wrong",
+    "queuedForApproval": "Queued for approval"
+  },
+  "categories": {
+    "title": "Categories",
+    "subtitle": "Manage blog post categories",
+    "searchPlaceholder": "Search categories...",
+    "empty": "No categories found.",
+    "postsCount": "{{count}} posts",
+    "noDescription": "No description provided.",
+    "actions": {
+      "add": "Add Category"
+    },
+    "stats": {
+      "total": "Total",
+      "used": "Used",
+      "unused": "Unused"
+    },
+    "sort": {
+      "placeholder": "Sort by",
+      "nameAsc": "Name A-Z",
+      "nameDesc": "Name Z-A",
+      "mostPosts": "Most Posts",
+      "newest": "Newest",
+      "oldest": "Oldest"
+    },
+    "modal": {
+      "addTitle": "Add Category",
+      "editTitle": "Edit Category"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "e.g. Technology",
+      "slug": "Slug",
+      "slugPlaceholder": "technology",
+      "description": "Description",
+      "descriptionPlaceholder": "Description of category...",
+      "colorTag": "Color Tag"
+    },
+    "deleteModal": {
+      "title": "Delete Category",
+      "message": "Are you sure you want to delete <strong>{{name}}</strong>?"
+    },
+    "toasts": {
+      "loadError": "Failed to load categories",
+      "createSuccess": "Category created successfully",
+      "updateSuccess": "Category updated successfully",
+      "deleteSuccess": "Category deleted successfully",
+      "deleteError": "Failed to delete category"
+    }
+  },
+  "tags": {
+    "title": "Tags",
+    "subtitle": "Organize projects with color-coded tags",
+    "searchPlaceholder": "Search tags...",
+    "empty": "No tags found.",
+    "projectsCount": "{{count}} projects",
+    "actions": {
+      "add": "Add Tag"
+    },
+    "stats": {
+      "total": "Total Tags",
+      "used": "Used in Projects",
+      "unused": "Unused Tags",
+      "uniqueColors": "Unique Colors"
+    },
+    "modal": {
+      "addTitle": "Add Tag",
+      "editTitle": "Edit Tag"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "e.g. Spring Boot",
+      "slug": "Slug",
+      "slugPlaceholder": "spring-boot",
+      "color": "Color",
+      "logo": "Logo",
+      "logoModeUrl": "Image URL",
+      "logoModeUpload": "Upload File",
+      "logoPlaceholder": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/...",
+      "logoUploadHint": "Click to upload SVG, PNG, JPG, WEBP or GIF (max 2MB)",
+      "logoPreviewAlt": "Logo preview",
+      "logoRemove": "Remove"
+    },
+    "deleteModal": {
+      "title": "Delete Tag",
+      "message": "Are you sure you want to delete tag <strong>{{name}}</strong>?"
+    },
+    "toasts": {
+      "loadError": "Failed to load tags",
+      "createSuccess": "Tag created successfully",
+      "updateSuccess": "Tag updated successfully",
+      "deleteSuccess": "Tag deleted successfully",
+      "deleteError": "Failed to delete tag"
+    }
+  },
+  "team": {
+    "title": "Team Members",
+    "subtitle": "Manage your team roster and member profiles",
+    "searchPlaceholder": "Search members by name, title, or email...",
+    "empty": "No team members found.",
+    "orderLabel": "Order: {{order}}",
+    "actions": {
+      "add": "Add Member"
+    },
+    "stats": {
+      "total": "Total",
+      "founders": "Founders",
+      "visible": "Visible",
+      "hidden": "Hidden"
+    },
+    "badges": {
+      "founder": "FOUNDER"
+    },
+    "modal": {
+      "addTitle": "Add Team Member",
+      "editTitle": "Edit Team Member"
+    },
+    "form": {
+      "avatarPreviewAlt": "Preview",
+      "uploadPhoto": "Upload Photo",
+      "name": "Name",
+      "namePlaceholder": "Sokha Chea",
+      "titleRole": "Title / Role",
+      "titlePlaceholder": "Full Stack Lead",
+      "email": "Email",
+      "emailPlaceholder": "sokha@apex.space",
+      "bio": "Bio",
+      "bioPlaceholder": "Brief introduction...",
+      "githubUrl": "GitHub URL",
+      "githubPlaceholder": "https://github.com/...",
+      "linkedinUrl": "LinkedIn URL",
+      "linkedinPlaceholder": "https://linkedin.com/in/...",
+      "telegramUrl": "Telegram URL",
+      "telegramPlaceholder": "https://t.me/...",
+      "founder": "Founder",
+      "visibleOnSite": "Visible on site",
+      "order": "Order:",
+      "saveMember": "Save Member"
+    },
+    "deleteModal": {
+      "title": "Remove Member",
+      "message": "Remove <strong>{{name}}</strong> from team?"
+    },
+    "toasts": {
+      "createSuccess": "Member added!",
+      "updateSuccess": "Member updated!",
+      "saveError": "Failed to save",
+      "deleteSuccess": "Member removed",
+      "deleteError": "Failed to remove"
+    }
+  },
+  "media": {
+    "title": "Media Library",
+    "subtitle": "Manage uploaded images and documents",
+    "searchPlaceholder": "Search files by name...",
+    "empty": "No media files found. Upload some to get started!",
+    "fallbackDoc": "doc",
+    "fallbackFile": "File",
+    "confirmBulkDelete": "Delete {{count}} files?",
+    "actions": {
+      "deleteSelected": "Delete ({{count}})",
+      "uploadFiles": "Upload Files",
+      "uploading": "Uploading...",
+      "copyUrl": "Copy URL"
+    },
+    "providers": {
+      "supabase": "Supabase",
+      "cloudinary": "Cloudinary",
+      "both": "Both"
+    },
+    "filters": {
+      "all": "All",
+      "image": "Image",
+      "document": "Document"
+    },
+    "units": {
+      "b": "B",
+      "kb": "KB",
+      "mb": "MB",
+      "gb": "GB"
+    },
+    "detail": {
+      "size": "Size:",
+      "provider": "Provider:",
+      "url": "URL:"
+    },
+    "deleteModal": {
+      "title": "Delete File",
+      "message": "Delete file <strong>{{name}}</strong>?"
+    },
+    "toasts": {
+      "uploadError": "Failed to upload {{name}}",
+      "uploadSuccess": "Uploaded {{count}} file(s)!",
+      "urlCopied": "Copied URL to clipboard!",
+      "deleteSuccess": "File deleted",
+      "deleteError": "Failed to delete file",
+      "bulkDeleteSuccess": "{{count}} files deleted",
+      "bulkDeletePartialError": "Some deletions failed"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your site configuration and preferences",
+    "unsavedChanges": "Unsaved changes",
+    "unsavedBanner": "You have unsaved changes",
+    "sectionTitle": "{{group}} Settings",
+    "charactersCount": "{{count}} characters",
+    "actions": {
+      "saveChanges": "Save Changes",
+      "discard": "Discard"
+    },
+    "status": {
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    },
+    "groups": {
+      "defaultDescription": "Configure settings for this section",
+      "general": {
+        "label": "General",
+        "description": "Basic site information like name, tagline, and description"
+      },
+      "social": {
+        "label": "Social",
+        "description": "Contact information and social media links"
+      },
+      "seo": {
+        "label": "SEO",
+        "description": "Search engine optimization and meta tags"
+      },
+      "permissions": {
+        "label": "Permissions",
+        "description": "Control what actions admins can perform without Super Admin approval"
+      },
+      "storage": {
+        "label": "Storage",
+        "description": "Control which cloud storage providers are available for all admin file uploads"
+      }
+    },
+    "fields": {
+      "site_name": "Site Name",
+      "site_tagline": "Site Tagline",
+      "site_description": "Site Description",
+      "contact_email": "Contact Email",
+      "github_url": "GitHub URL",
+      "telegram_url": "Telegram URL",
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "admin_direct_action": "Admin Direct Action",
+      "allowed_storage_providers": "Allowed Storage Providers"
+    },
+    "hints": {
+      "site_name": "— Displayed in header & browser tab",
+      "site_tagline": "— Short slogan shown on homepage",
+      "site_description": "— Used in about sections",
+      "contact_email": "— Public contact email",
+      "meta_title": "— Browser tab & search results title",
+      "meta_description": "— Search results snippet text"
+    },
+    "placeholders": {
+      "url": "https://",
+      "email": "email@example.com",
+      "enterField": "Enter {{field}}..."
+    },
+    "storage": {
+      "supabaseOnly": "Supabase only",
+      "both": "Both",
+      "cloudinaryOnly": "Cloudinary only",
+      "helperText": "Admins will only be able to upload to the provider(s) selected here."
+    },
+    "toasts": {
+      "saveSuccess": "Settings saved successfully!",
+      "saveError": "Failed to save settings"
+    }
+  }
+}

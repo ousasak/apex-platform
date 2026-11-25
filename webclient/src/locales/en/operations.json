@@ -1,0 +1,311 @@
+{
+  "common": {
+    "view": "View",
+    "close": "Close",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "edit": "Edit",
+    "saving": "Saving...",
+    "refresh": "Refresh",
+    "prev": "Prev",
+    "next": "Next",
+    "by": "by",
+    "unknown": "Unknown"
+  },
+  "status": {
+    "pending": "Pending",
+    "reviewing": "Reviewing",
+    "reviewed": "Reviewed",
+    "accepted": "Accepted",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "unread": "Unread",
+    "read": "Read",
+    "replied": "Replied",
+    "archived": "Archived"
+  },
+  "actions": {
+    "create": "Create",
+    "update": "Update",
+    "delete": "Delete",
+    "created": "Created",
+    "updated": "Updated",
+    "deleted": "Deleted",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "resources": {
+    "user": "User",
+    "role": "Role",
+    "permission": "Permission",
+    "post": "Post",
+    "blogpost": "Blog Post",
+    "project": "Project",
+    "document": "Document",
+    "documentation": "Documentation",
+    "category": "Category",
+    "tag": "Tag",
+    "application": "Application",
+    "message": "Message",
+    "setting": "Setting",
+    "approvalrequest": "Approval Request",
+    "comment": "Comment",
+    "media": "Media",
+    "page": "Page",
+    "event": "Event",
+    "team": "Team",
+    "member": "Member",
+    "partner": "Partner",
+    "faq": "FAQ",
+    "announcement": "Announcement",
+    "activitylog": "Activity Log"
+  },
+  "applications": {
+    "title": "Applications",
+    "subtitle": "Review and manage team membership applications",
+    "totalCount": "{{count}} total",
+    "loading": "Loading applications...",
+    "empty": "No applications found",
+    "stats": {
+      "total": "Total"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by name or email...",
+      "allStatus": "All Status"
+    },
+    "actions": {
+      "accept": "Accept",
+      "reject": "Reject",
+      "acceptAll": "Accept All",
+      "rejectAll": "Reject All"
+    },
+    "table": {
+      "selectAll": "Select all applications",
+      "selectRow": "Select application from {{name}}",
+      "applicant": "Applicant",
+      "role": "Role",
+      "skills": "Skills",
+      "status": "Status",
+      "applied": "Applied",
+      "actions": "Actions"
+    },
+    "modal": {
+      "roleApplied": "Role Applied",
+      "skills": "Skills",
+      "motivation": "Motivation",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "portfolio": "Portfolio",
+      "adminNotes": "Admin Notes",
+      "adminNotesPlaceholder": "Internal notes about this applicant..."
+    },
+    "toast": {
+      "statusUpdated": "Application {{status}}",
+      "statusUpdateFailed": "Failed to update status"
+    }
+  },
+  "approvals": {
+    "title": "Approval Requests",
+    "subtitle": "Review and approve or reject pending admin actions",
+    "pendingBadge": "{{count}} pending",
+    "byReviewer": "by {{name}}",
+    "tabs": {
+      "all": "All"
+    },
+    "empty": {
+      "pendingTitle": "No pending requests",
+      "allTitle": "No requests",
+      "pendingSubtitle": "All caught up!",
+      "allSubtitle": "No requests have been made yet."
+    },
+    "actions": {
+      "approve": "Approve",
+      "approving": "Approving...",
+      "reject": "Reject",
+      "rejecting": "Rejecting..."
+    },
+    "modal": {
+      "approveTitle": "Approve Request",
+      "approveSubtitle": "This will apply the action immediately.",
+      "rejectTitle": "Reject Request",
+      "rejectSubtitle": "The action will not be applied.",
+      "summaryWithLabel": "<action>{{action}}</action> action on <subject>{{subject}}</subject> \"{{label}}\" by <requester>{{requester}}</requester>",
+      "summaryWithoutLabel": "<action>{{action}}</action> action on <subject>{{subject}}</subject> by <requester>{{requester}}</requester>",
+      "noteOptional": "Note (optional)",
+      "notePlaceholder": "Add a note...",
+      "rejectReason": "Reason for rejection",
+      "rejectReasonPlaceholder": "Provide a reason...",
+      "rejectReasonRequired": "A reason is required when rejecting."
+    },
+    "toast": {
+      "loadFailed": "Failed to load approval requests",
+      "approved": "Request approved successfully!",
+      "approveFailed": "Failed to approve request",
+      "rejected": "Request rejected.",
+      "rejectFailed": "Failed to reject request"
+    }
+  },
+  "messages": {
+    "title": "Messages",
+    "subtitle": "Contact form submissions and inquiries",
+    "loading": "Loading messages...",
+    "empty": "No messages found",
+    "stats": {
+      "total": "Total"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by name, email, or subject...",
+      "allMessages": "All Messages",
+      "unreadOnly": "Unread Only",
+      "readOnly": "Read Only"
+    },
+    "actions": {
+      "markReadCount": "Mark Read ({{count}})",
+      "deleteCount": "Delete ({{count}})",
+      "replyViaEmail": "Reply via Email"
+    },
+    "table": {
+      "selectAll": "Select all messages",
+      "selectRow": "Select message from {{name}}",
+      "sender": "Sender",
+      "subject": "Subject",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "modal": {
+      "fromLabel": "From:"
+    },
+    "deleteModal": {
+      "title": "Delete Message",
+      "confirm": "Delete message from <strong>{{name}}</strong>?"
+    },
+    "confirm": {
+      "bulkDelete": "Delete {{count}} messages?"
+    },
+    "toast": {
+      "markedRead": "Marked as read",
+      "markReadFailed": "Failed to mark read",
+      "bulkDeleted": "{{count}} messages deleted",
+      "bulkDeleteFailed": "Failed to delete messages",
+      "deleted": "Message deleted",
+      "deleteFailed": "Failed to delete"
+    }
+  },
+  "roles": {
+    "title": "Roles & Permissions",
+    "subtitle": "Manage user roles and access levels",
+    "noDescription": "No description provided",
+    "userCountSingular": "{{count}} user",
+    "userCountPlural": "{{count}} users",
+    "names": {
+      "admin": "Administrator",
+      "super_admin": "Super Admin",
+      "member": "Member",
+      "guest": "Guest",
+      "moderator": "Moderator",
+      "editor": "Editor"
+    },
+    "stats": {
+      "totalRoles": "Total Roles",
+      "totalUsers": "Total Users",
+      "systemRoles": "System Roles",
+      "customRoles": "Custom Roles"
+    },
+    "badges": {
+      "system": "System",
+      "custom": "Custom"
+    },
+    "actions": {
+      "addRole": "Add Role",
+      "createRole": "Create Role",
+      "updateRole": "Update Role"
+    },
+    "empty": {
+      "title": "No roles found",
+      "subtitle": "Create your first role to manage user access."
+    },
+    "modal": {
+      "createTitle": "Create Role",
+      "editTitle": "Edit Role"
+    },
+    "form": {
+      "displayName": "Display Name",
+      "displayNamePlaceholder": "e.g. Content Editor",
+      "slug": "Slug",
+      "slugHint": "unique identifier",
+      "slugPlaceholder": "e.g. content-editor",
+      "systemSlugLocked": "System role slug cannot be changed",
+      "description": "Description",
+      "descriptionPlaceholder": "Brief description of this role's permissions..."
+    },
+    "validation": {
+      "nameAndSlugRequired": "Display name and slug are required."
+    },
+    "deleteModal": {
+      "title": "Delete Role",
+      "subtitle": "This action cannot be undone.",
+      "assignedSingular": "{{count}} user assigned",
+      "assignedPlural": "{{count}} users assigned",
+      "reassignWarningSingular": "This role has {{count}} assigned user. Reassign them first before deleting.",
+      "reassignWarningPlural": "This role has {{count}} assigned users. Reassign them first before deleting."
+    },
+    "toast": {
+      "created": "Role created successfully",
+      "updated": "Role updated successfully",
+      "saveFailed": "Failed to save role",
+      "deleted": "Role deleted",
+      "deleteFailed": "Failed to delete role"
+    }
+  },
+  "logs": {
+    "title": "Activity Logs",
+    "subtitle": "Track all system actions and user activity",
+    "systemUser": "System",
+    "stats": {
+      "totalLogs": "Total Logs"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by description, user, or target...",
+      "allActions": "All Actions"
+    },
+    "views": {
+      "table": "Table view",
+      "timeline": "Timeline view"
+    },
+    "table": {
+      "user": "User",
+      "action": "Action",
+      "description": "Description",
+      "target": "Target",
+      "ipAddress": "IP Address",
+      "time": "Time"
+    },
+    "timeline": {
+      "eventCountSingular": "{{count}} event",
+      "eventCountPlural": "{{count}} events"
+    },
+    "time": {
+      "justNow": "Just now",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago",
+      "monthsAgo": "{{count}}mo ago",
+      "today": "Today",
+      "yesterday": "Yesterday"
+    },
+    "actions": {
+      "viewDetails": "View details",
+      "clearFilters": "Clear filters"
+    },
+    "empty": {
+      "title": "No activity logs found",
+      "filteredSubtitle": "Try adjusting your filters.",
+      "defaultSubtitle": "Activity will appear here as actions are performed."
+    },
+    "modal": {
+      "title": "Activity Detail",
+      "changesData": "Changes / Data"
+    }
+  }
+}

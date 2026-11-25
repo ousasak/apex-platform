@@ -1,0 +1,242 @@
+{
+  "common": {
+    "author": "Author",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "create": "Create",
+    "creating": "Creating...",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "done": "Done",
+    "remove": "Remove",
+    "new": "New",
+    "none": "None",
+    "optional": "optional",
+    "uncategorized": "Uncategorized",
+    "minRead": "{{minutes}} min read",
+    "minShort": "{{minutes}} min",
+    "viewsCount": "{{count}} views"
+  },
+  "status": {
+    "published": "Published",
+    "draft": "Draft",
+    "archived": "Archived",
+    "pending": "Pending"
+  },
+  "public": {
+    "hero": {
+      "eyebrow": "Insights",
+      "titlePrefix": "Insights &",
+      "titleHighlight": "Stories",
+      "subtitle": "Tutorials, team updates, and thoughts on building software — from the APEX team."
+    },
+    "filters": {
+      "searchPlaceholder": "Search articles...",
+      "allCategories": "All Categories",
+      "articleCountOne": "{{count}} article",
+      "articleCountOther": "{{count}} articles",
+      "articleCountFilteredOne": "{{count}} article matching your filters",
+      "articleCountFilteredOther": "{{count}} articles matching your filters"
+    },
+    "featured": {
+      "label": "Featured",
+      "titlePrefix": "Spotlight",
+      "titleHighlight": "article",
+      "badge": "Featured",
+      "readArticle": "Read Article"
+    },
+    "grid": {
+      "label": "All articles",
+      "titlePrefix": "Latest from the",
+      "titleHighlight": "team",
+      "read": "Read"
+    },
+    "empty": {
+      "title": "No articles found",
+      "message": "Try adjusting your search or filter."
+    }
+  },
+  "post": {
+    "defaultTitle": "Article",
+    "pageTitle": "{{title}} – APEX",
+    "notFoundPageTitle": "Article Not Found – APEX",
+    "backToBlog": "Blog",
+    "backToAllArticles": "Back to all articles",
+    "articleInfo": {
+      "title": "Article Info",
+      "published": "Published",
+      "readingTime": "Reading Time",
+      "views": "Views",
+      "category": "Category"
+    },
+    "share": {
+      "title": "Share this article",
+      "facebook": "Share on Facebook",
+      "telegram": "Share on Telegram",
+      "whatsapp": "Share on WhatsApp",
+      "x": "Share on X",
+      "linkedin": "Share on LinkedIn",
+      "copyLink": "Copy Link",
+      "linkCopied": "Link Copied!"
+    },
+    "notFound": {
+      "title": "Post not found",
+      "message": "The blog post you're looking for doesn't exist."
+    }
+  },
+  "admin": {
+    "title": "Blog Posts",
+    "subtitle": "Manage articles, tutorials, and announcements",
+    "newPost": "New Post",
+    "deleteSelected": "Delete ({{count}})",
+    "bulkDeleteConfirm": "Delete {{count}} posts?",
+    "stats": {
+      "totalPosts": "Total Posts",
+      "drafts": "Drafts",
+      "totalViews": "Total Views"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by title...",
+      "allStatus": "All Status",
+      "allCategories": "All Categories",
+      "allSeries": "All Series"
+    },
+    "table": {
+      "selectAll": "Select all posts",
+      "selectPost": "Select {{title}}",
+      "post": "Post",
+      "category": "Category",
+      "status": "Status",
+      "views": "Views",
+      "date": "Date",
+      "actions": "Actions",
+      "loading": "Loading posts...",
+      "empty": "No posts found"
+    },
+    "deleteModal": {
+      "title": "Delete Post",
+      "message": "Are you sure you want to delete <strong>{{title}}</strong>?"
+    },
+    "toast": {
+      "deleted": "Post deleted",
+      "queuedForApproval": "Queued for approval",
+      "deleteFailed": "Failed to delete",
+      "bulkDeleted": "{{count}} posts deleted",
+      "bulkDeleteFailed": "Some deletions failed"
+    }
+  },
+  "form": {
+    "newPost": "New Post",
+    "editPost": "Edit Post",
+    "createPost": "Create Post",
+    "editSubtitle": "Update article content and settings",
+    "createSubtitle": "Write a new article for your blog",
+    "sections": {
+      "postDetails": "Post Details",
+      "content": "Content",
+      "coverImage": "Cover Image",
+      "publishSettings": "Publish Settings",
+      "series": "Series",
+      "tags": "Tags"
+    },
+    "fields": {
+      "title": "Title",
+      "permalink": "Permalink",
+      "excerpt": "Excerpt",
+      "uploadTo": "Upload to",
+      "status": "Status",
+      "category": "Category"
+    },
+    "placeholders": {
+      "title": "Your amazing article title",
+      "slugFallback": "post-title",
+      "excerpt": "A brief summary that hooks the reader...",
+      "selectCategory": "Select Category"
+    },
+    "storage": {
+      "supabase": "Supabase",
+      "cloudinary": "Cloudinary"
+    },
+    "coverImage": {
+      "previewAlt": "Cover preview",
+      "uploadPrompt": "Click to upload cover",
+      "uploadHint": "PNG, JPG up to 2MB"
+    },
+    "tags": {
+      "empty": "No tags available"
+    },
+    "actions": {
+      "resetFromTitle": "Reset from title",
+      "updatePost": "Update Post",
+      "createPost": "Create Post"
+    },
+    "seriesModal": {
+      "titlePlaceholder": "Series title",
+      "descriptionPlaceholder": "Description (optional)"
+    },
+    "toast": {
+      "loadFailed": "Failed to load post",
+      "seriesCreated": "Series created!",
+      "seriesCreateFailed": "Failed to create series",
+      "updated": "Post updated successfully!",
+      "created": "Post created successfully!",
+      "saveFailed": "Failed to save post"
+    }
+  },
+  "series": {
+    "title": "Series",
+    "subtitle": "Group blog posts into themed series",
+    "newSeries": "New Series",
+    "editSeries": "Edit Series",
+    "searchPlaceholder": "Search series…",
+    "table": {
+      "name": "Name",
+      "slug": "Slug",
+      "description": "Description",
+      "posts": "Posts",
+      "created": "Created",
+      "actions": "Actions",
+      "loading": "Loading series...",
+      "empty": "No series found"
+    },
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "description": "Description"
+    },
+    "placeholders": {
+      "title": "e.g. Docker Mastery",
+      "slug": "docker-mastery",
+      "description": "Series description..."
+    },
+    "deleteModal": {
+      "title": "Delete Series",
+      "message": "Delete series <strong>{{name}}</strong>? Posts are kept and become unassigned."
+    },
+    "toast": {
+      "loadFailed": "Failed to load series",
+      "updated": "Series updated",
+      "created": "Series created",
+      "saveFailed": "Save failed",
+      "deleted": "Series deleted",
+      "deleteFailed": "Delete failed"
+    }
+  },
+  "seriesDetail": {
+    "defaultTitle": "Series",
+    "pageTitle": "{{name}} – @{{username}} | APEX",
+    "fallbackPageTitle": "Series – APEX",
+    "badge": "Series",
+    "notFound": {
+      "title": "Series not found",
+      "message": "This series does not exist or has no public page."
+    },
+    "empty": {
+      "title": "No posts in this series",
+      "message": "Posts will appear here when they are published in this series."
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "common": {
+    "view": "មើល",
+    "close": "បិទ",
+    "cancel": "បោះបង់",
+    "delete": "លុប",
+    "deleting": "កំពុងលុប...",
+    "edit": "កែសម្រួល",
+    "saving": "កំពុងរក្សាទុក...",
+    "refresh": "ផ្ទុកឡើងវិញ",
+    "prev": "មុន",
+    "next": "បន្ទាប់",
+    "by": "ដោយ",
+    "unknown": "មិនស្គាល់"
+  },
+  "status": {
+    "pending": "កំពុងរង់ចាំ",
+    "reviewing": "កំពុងពិនិត្យ",
+    "reviewed": "បានពិនិត្យ",
+    "accepted": "បានទទួលយក",
+    "approved": "បានអនុម័ត",
+    "rejected": "បានបដិសេធ",
+    "unread": "មិនទាន់អាន",
+    "read": "បានអាន",
+    "replied": "បានឆ្លើយតប",
+    "archived": "បានទុកក្នុងបណ្ណសារ"
+  },
+  "actions": {
+    "create": "បង្កើត",
+    "update": "កែប្រែ",
+    "delete": "លុប",
+    "created": "បានបង្កើត",
+    "updated": "បានកែប្រែ",
+    "deleted": "បានលុប",
+    "login": "ចូលប្រព័ន្ធ",
+    "logout": "ចាកចេញ"
+  },
+  "resources": {
+    "user": "អ្នកប្រើប្រាស់",
+    "role": "តួនាទី",
+    "permission": "សិទ្ធិអនុញ្ញាត",
+    "post": "អត្ថបទ",
+    "blogpost": "អត្ថបទប្លុក",
+    "project": "គម្រោង",
+    "document": "ឯកសារ",
+    "documentation": "ឯកសារណែនាំ",
+    "category": "ប្រភេទ",
+    "tag": "ស្លាក",
+    "application": "ពាក្យស្នើសុំ",
+    "message": "សារ",
+    "setting": "ការកំណត់",
+    "approvalrequest": "សំណើអនុម័ត",
+    "comment": "មតិយោបល់",
+    "media": "មេឌៀ",
+    "page": "ទំព័រ",
+    "event": "ព្រឹត្តិការណ៍",
+    "team": "ក្រុម",
+    "member": "សមាជិក",
+    "partner": "ដៃគូ",
+    "faq": "សំណួរញឹកញាប់",
+    "announcement": "សេចក្តីជូនដំណឹង",
+    "activitylog": "កំណត់ត្រាសកម្មភាព"
+  },
+  "applications": {
+    "title": "ពាក្យស្នើសុំចូលរួម",
+    "subtitle": "ពិនិត្យ និងគ្រប់គ្រងពាក្យស្នើសុំចូលជាសមាជិកក្រុម",
+    "totalCount": "សរុប {{count}}",
+    "loading": "កំពុងផ្ទុកពាក្យស្នើសុំ...",
+    "empty": "មិនមានពាក្យស្នើសុំទេ",
+    "stats": {
+      "total": "សរុប"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកតាមឈ្មោះ ឬអ៊ីមែល...",
+      "allStatus": "ស្ថានភាពទាំងអស់"
+    },
+    "actions": {
+      "accept": "ទទួលយក",
+      "reject": "បដិសេធ",
+      "acceptAll": "ទទួលយកទាំងអស់",
+      "rejectAll": "បដិសេធទាំងអស់"
+    },
+    "table": {
+      "selectAll": "ជ្រើសរើសពាក្យស្នើសុំទាំងអស់",
+      "selectRow": "ជ្រើសរើសពាក្យស្នើសុំរបស់ {{name}}",
+      "applicant": "អ្នកដាក់ពាក្យ",
+      "role": "តួនាទី",
+      "skills": "ជំនាញ",
+      "status": "ស្ថានភាព",
+      "applied": "ថ្ងៃដាក់ពាក្យ",
+      "actions": "សកម្មភាព"
+    },
+    "modal": {
+      "roleApplied": "តួនាទីដែលបានស្នើសុំ",
+      "skills": "ជំនាញ",
+      "motivation": "មូលហេតុចូលរួម",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "portfolio": "ផតហ្វូលីយ៉ូ",
+      "adminNotes": "កំណត់ចំណាំអ្នកគ្រប់គ្រង",
+      "adminNotesPlaceholder": "កំណត់ចំណាំផ្ទៃក្នុងអំពីអ្នកដាក់ពាក្យនេះ..."
+    },
+    "toast": {
+      "statusUpdated": "ពាក្យស្នើសុំ៖ {{status}}",
+      "statusUpdateFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពស្ថានភាព"
+    }
+  },
+  "approvals": {
+    "title": "សំណើអនុម័ត",
+    "subtitle": "ពិនិត្យ និងអនុម័ត ឬបដិសេធសកម្មភាពគ្រប់គ្រងដែលកំពុងរង់ចាំ",
+    "pendingBadge": "កំពុងរង់ចាំ {{count}}",
+    "byReviewer": "ដោយ {{name}}",
+    "tabs": {
+      "all": "ទាំងអស់"
+    },
+    "empty": {
+      "pendingTitle": "មិនមានសំណើកំពុងរង់ចាំទេ",
+      "allTitle": "មិនមានសំណើទេ",
+      "pendingSubtitle": "បានពិនិត្យរួចរាល់ទាំងអស់!",
+      "allSubtitle": "មិនទាន់មានសំណើណាមួយនៅឡើយទេ។"
+    },
+    "actions": {
+      "approve": "អនុម័ត",
+      "approving": "កំពុងអនុម័ត...",
+      "reject": "បដិសេធ",
+      "rejecting": "កំពុងបដិសេធ..."
+    },
+    "modal": {
+      "approveTitle": "អនុម័តសំណើ",
+      "approveSubtitle": "សកម្មភាពនេះនឹងត្រូវបានអនុវត្តភ្លាមៗ។",
+      "rejectTitle": "បដិសេធសំណើ",
+      "rejectSubtitle": "សកម្មភាពនេះនឹងមិនត្រូវបានអនុវត្តទេ។",
+      "summaryWithLabel": "សកម្មភាព <action>{{action}}</action> លើ <subject>{{subject}}</subject> \"{{label}}\" ដោយ <requester>{{requester}}</requester>",
+      "summaryWithoutLabel": "សកម្មភាព <action>{{action}}</action> លើ <subject>{{subject}}</subject> ដោយ <requester>{{requester}}</requester>",
+      "noteOptional": "កំណត់ចំណាំ (ជាជម្រើស)",
+      "notePlaceholder": "បន្ថែមកំណត់ចំណាំ...",
+      "rejectReason": "មូលហេតុនៃការបដិសេធ",
+      "rejectReasonPlaceholder": "បញ្ជាក់មូលហេតុ...",
+      "rejectReasonRequired": "ត្រូវការបញ្ជាក់មូលហេតុនៅពេលបដិសេធ។"
+    },
+    "toast": {
+      "loadFailed": "បរាជ័យក្នុងការផ្ទុកសំណើអនុម័ត",
+      "approved": "បានអនុម័តសំណើដោយជោគជ័យ!",
+      "approveFailed": "បរាជ័យក្នុងការអនុម័តសំណើ",
+      "rejected": "បានបដិសេធសំណើ។",
+      "rejectFailed": "បរាជ័យក្នុងការបដិសេធសំណើ"
+    }
+  },
+  "messages": {
+    "title": "សារ",
+    "subtitle": "សារទំនាក់ទំនង និងសំណួរពីអ្នកប្រើប្រាស់",
+    "loading": "កំពុងផ្ទុកសារ...",
+    "empty": "មិនមានសារទេ",
+    "stats": {
+      "total": "សរុប"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកតាមឈ្មោះ អ៊ីមែល ឬប្រធានបទ...",
+      "allMessages": "សារទាំងអស់",
+      "unreadOnly": "តែសារមិនទាន់អាន",
+      "readOnly": "តែសារបានអាន"
+    },
+    "actions": {
+      "markReadCount": "សម្គាល់ថាបានអាន ({{count}})",
+      "deleteCount": "លុប ({{count}})",
+      "replyViaEmail": "ឆ្លើយតបតាមអ៊ីមែល"
+    },
+    "table": {
+      "selectAll": "ជ្រើសរើសសារទាំងអស់",
+      "selectRow": "ជ្រើសរើសសារពី {{name}}",
+      "sender": "អ្នកផ្ញើ",
+      "subject": "ប្រធានបទ",
+      "date": "កាលបរិច្ឆេទ",
+      "actions": "សកម្មភាព"
+    },
+    "modal": {
+      "fromLabel": "ពី៖"
+    },
+    "deleteModal": {
+      "title": "លុបសារ",
+      "confirm": "តើអ្នកចង់លុបសារពី <strong>{{name}}</strong> មែនទេ?"
+    },
+    "confirm": {
+      "bulkDelete": "តើអ្នកចង់លុបសារចំនួន {{count}} មែនទេ?"
+    },
+    "toast": {
+      "markedRead": "បានសម្គាល់ថាបានអាន",
+      "markReadFailed": "បរាជ័យក្នុងការសម្គាល់ថាបានអាន",
+      "bulkDeleted": "បានលុបសារចំនួន {{count}}",
+      "bulkDeleteFailed": "បរាជ័យក្នុងការលុបសារ",
+      "deleted": "បានលុបសារ",
+      "deleteFailed": "បរាជ័យក្នុងការលុប"
+    }
+  },
+  "roles": {
+    "title": "តួនាទី និងសិទ្ធិអនុញ្ញាត",
+    "subtitle": "គ្រប់គ្រងតួនាទី និងកម្រិតសិទ្ធិប្រើប្រាស់របស់អ្នកប្រើ",
+    "noDescription": "មិនមានការពិពណ៌នាទេ",
+    "userCountSingular": "អ្នកប្រើ {{count}} នាក់",
+    "userCountPlural": "អ្នកប្រើ {{count}} នាក់",
+    "names": {
+      "admin": "អ្នកគ្រប់គ្រងប្រព័ន្ធ",
+      "super_admin": "អ្នកគ្រប់គ្រងជាន់ខ្ពស់",
+      "member": "សមាជិក",
+      "guest": "ភ្ញៀវ",
+      "moderator": "អ្នកសម្របសម្រួល",
+      "editor": "អ្នកកែសម្រួល"
+    },
+    "stats": {
+      "totalRoles": "តួនាទីសរុប",
+      "totalUsers": "អ្នកប្រើសរុប",
+      "systemRoles": "តួនាទីប្រព័ន្ធ",
+      "customRoles": "តួនាទីផ្ទាល់ខ្លួន"
+    },
+    "badges": {
+      "system": "ប្រព័ន្ធ",
+      "custom": "ផ្ទាល់ខ្លួន"
+    },
+    "actions": {
+      "addRole": "បន្ថែមតួនាទី",
+      "createRole": "បង្កើតតួនាទី",
+      "updateRole": "ធ្វើបច្ចុប្បន្នភាពតួនាទី"
+    },
+    "empty": {
+      "title": "មិនមានតួនាទីទេ",
+      "subtitle": "បង្កើតតួនាទីដំបូងរបស់អ្នកដើម្បីគ្រប់គ្រងសិទ្ធិអ្នកប្រើ។"
+    },
+    "modal": {
+      "createTitle": "បង្កើតតួនាទី",
+      "editTitle": "កែសម្រួលតួនាទី"
+    },
+    "form": {
+      "displayName": "ឈ្មោះបង្ហាញ",
+      "displayNamePlaceholder": "ឧ. អ្នកកែសម្រួលមាតិកា",
+      "slug": "កូដសម្គាល់ (Slug)",
+      "slugHint": "លេខសម្គាល់តែមួយគត់",
+      "slugPlaceholder": "ឧ. content-editor",
+      "systemSlugLocked": "មិនអាចផ្លាស់ប្តូរកូដសម្គាល់នៃតួនាទីប្រព័ន្ធបានទេ",
+      "description": "ការពិពណ៌នា",
+      "descriptionPlaceholder": "ការពិពណ៌នាសង្ខេបអំពីសិទ្ធិរបស់តួនាទីនេះ..."
+    },
+    "validation": {
+      "nameAndSlugRequired": "ត្រូវការបញ្ចូលឈ្មោះបង្ហាញ និងកូដសម្គាល់។"
+    },
+    "deleteModal": {
+      "title": "លុបតួនាទី",
+      "subtitle": "សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។",
+      "assignedSingular": "មានអ្នកប្រើ {{count}} នាក់ត្រូវបានចាត់តាំង",
+      "assignedPlural": "មានអ្នកប្រើ {{count}} នាក់ត្រូវបានចាត់តាំង",
+      "reassignWarningSingular": "តួនាទីនេះមានអ្នកប្រើ {{count}} នាក់កំពុងប្រើ។ សូមផ្លាស់ប្តូរតួនាទីពួកគេជាមុនសិនមុននឹងលុប។",
+      "reassignWarningPlural": "តួនាទីនេះមានអ្នកប្រើ {{count}} នាក់កំពុងប្រើ។ សូមផ្លាស់ប្តូរតួនាទីពួកគេជាមុនសិនមុននឹងលុប។"
+    },
+    "toast": {
+      "created": "បានបង្កើតតួនាទីដោយជោគជ័យ",
+      "updated": "បានធ្វើបច្ចុប្បន្នភាពតួនាទីដោយជោគជ័យ",
+      "saveFailed": "បរាជ័យក្នុងការរក្សាទុកតួនាទី",
+      "deleted": "បានលុបតួនាទី",
+      "deleteFailed": "បរាជ័យក្នុងការលុបតួនាទី"
+    }
+  },
+  "logs": {
+    "title": "កំណត់ត្រាសកម្មភាព",
+    "subtitle": "តាមដានសកម្មភាពប្រព័ន្ធ និងសកម្មភាពអ្នកប្រើប្រាស់ទាំងអស់",
+    "systemUser": "ប្រព័ន្ធ",
+    "stats": {
+      "totalLogs": "កំណត់ត្រាសរុប"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកតាមការពិពណ៌នា អ្នកប្រើ ឬគោលដៅ...",
+      "allActions": "សកម្មភាពទាំងអស់"
+    },
+    "views": {
+      "table": "ទម្រង់តារាង",
+      "timeline": "ទម្រង់តាមលំដាប់ពេល"
+    },
+    "table": {
+      "user": "អ្នកប្រើប្រាស់",
+      "action": "សកម្មភាព",
+      "description": "ការពិពណ៌នា",
+      "target": "គោលដៅ",
+      "ipAddress": "អាសយដ្ឋាន IP",
+      "time": "ពេលវេលា"
+    },
+    "timeline": {
+      "eventCountSingular": "{{count}} ព្រឹត្តិការណ៍",
+      "eventCountPlural": "{{count}} ព្រឹត្តិការណ៍"
+    },
+    "time": {
+      "justNow": "អម្បាញ់មិញ",
+      "minutesAgo": "{{count}} នាទីមុន",
+      "hoursAgo": "{{count}} ម៉ោងមុន",
+      "daysAgo": "{{count}} ថ្ងៃមុន",
+      "monthsAgo": "{{count}} ខែមុន",
+      "today": "ថ្ងៃនេះ",
+      "yesterday": "ម្សិលមិញ"
+    },
+    "actions": {
+      "viewDetails": "មើលព័ត៌មានលម្អិត",
+      "clearFilters": "សម្អាតតម្រង"
+    },
+    "empty": {
+      "title": "មិនមានកំណត់ត្រាសកម្មភាពទេ",
+      "filteredSubtitle": "សូមសាកល្បងកែសម្រួលតម្រងរបស់អ្នក។",
+      "defaultSubtitle": "សកម្មភាពនឹងបង្ហាញនៅទីនេះនៅពេលមានការប្រតិបត្តិ។"
+    },
+    "modal": {
+      "title": "ព័ត៌មានលម្អិតសកម្មភាព",
+      "changesData": "ការផ្លាស់ប្តូរ / ទិន្នន័យ"
+    }
+  }
+}

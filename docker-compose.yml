@@ -1,0 +1,143 @@
+services:
+  # ── PostgreSQL ──
+  postgres:
+    image: postgres:16-alpine
+    container_name: apex_postgres
+    environment:
+      POSTGRES_DB: apex_db
+      POSTGRES_USER: apex_user
+      POSTGRES_PASSWORD: apex123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - apex_network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U apex_user -d apex_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── pgAdmin ──
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: apex_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@apex.dev
+      PGADMIN_DEFAULT_PASSWORD: admin123
+      PGADMIN_SERVER_JSON_FILE: /pgadmin4/servers.json
+      PGADMIN_REPLACE_SERVERS_ON_STARTUP: "True"
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      - ./pgadmin/servers.json:/pgadmin4/servers.json:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - apex_network
+    restart: unless-stopped
+
+  # ── Redis ──
+  redis:
+    image: redis:7-alpine
+    container_name: apex_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - apex_network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Laravel Backend ──
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: apex_backend
+    environment:
+      PORT: "8003"
+      APP_ENV: local
+      APP_DEBUG: "true"
+      APP_KEY: "base64:Xq2ORYZKct/EDW69vLh7za498cRGbfqthRp7wqqkuAY="
+      APP_URL: http://localhost:8003
+      FRONTEND_URL: http://localhost:3000
+      DB_CONNECTION: pgsql
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_DATABASE: apex_db
+      DB_USERNAME: apex_user
+      DB_PASSWORD: apex123
+      DB_SSLMODE: prefer
+      CACHE_DRIVER: redis
+      CACHE_STORE: redis
+      QUEUE_CONNECTION: redis
+      SESSION_DRIVER: file
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      REDIS_PASSWORD: ""
+      REDIS_SCHEME: tcp
+      SANCTUM_STATEFUL_DOMAINS: "localhost:3000"
+      RUN_MIGRATIONS: "1"
+    ports:
+      - "8003:8003"
+    volumes:
+      - ./backend/app:/var/www/html/app
+      - ./backend/bootstrap:/var/www/html/bootstrap
+      - ./backend/routes:/var/www/html/routes
+      - ./backend/config:/var/www/html/config
+      - ./backend/database:/var/www/html/database
+      - ./backend/storage:/var/www/html/storage
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - apex_network
+    restart: unless-stopped
+
+  # ── Webclient ──
+  webclient:
+    build:
+      context: ./webclient
+      dockerfile: Dockerfile
+      target: dev
+    container_name: apex_webclient
+    environment:
+      VITE_BACKEND_URL: http://backend:8003
+      VITE_API_PROXY: http://backend:8003
+      VITE_API_URL: http://localhost:8003/api
+      NUXT_DEV_API_PROXY: http://backend:8003
+      NUXT_PUBLIC_API_URL: http://localhost:8003/api
+      NUXT_PUBLIC_SITE_URL: http://localhost:3000
+    ports:
+      - "3000:3000"
+    command: ["sh", "-c", "npm install && npm run dev -- --host 0.0.0.0 --port 3000"]
+    volumes:
+      - ./webclient:/app
+      - webclient_node_modules:/app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - apex_network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  pgadmin_data:
+  redis_data:
+  webclient_node_modules:
+
+networks:
+  apex_network:
+    driver: bridge

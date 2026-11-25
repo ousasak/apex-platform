@@ -1,0 +1,13 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "APEX DB",
+            "Group": "Servers",
+            "Host": "postgres",
+            "Port": 5432,
+            "MaintenanceDB": "apex_db",
+            "Username": "apex_user",
+            "SSLMode": "prefer"
+        }
+    }
+}

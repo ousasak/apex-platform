@@ -1,0 +1,51 @@
+{
+  "title": "Dashboard",
+  "welcome": "Welcome back, {{name}}",
+  "overview": "Overview",
+  "trendsTitle": "6-Month Activity Trends",
+  "loadingChart": "Loading chart...",
+  "recentActivity": "Recent Activity",
+  "viewAllLogs": "View all logs →",
+  "noRecentActivity": "No recent activity.",
+  "system": "System",
+  "actions": {
+    "refresh": "Refresh",
+    "refreshing": "Refreshing...",
+    "retry": "Retry"
+  },
+  "errors": {
+    "loadFailed": "Failed to load dashboard data from server."
+  },
+  "stats": {
+    "totalUsers": "Total Users",
+    "projects": "Projects",
+    "blogPosts": "Blog Posts",
+    "messages": "Messages",
+    "applications": "Applications",
+    "docs": "Docs"
+  },
+  "subtext": {
+    "users": "{{active}} active · {{inactive}} inactive",
+    "projects": "{{active}} active · {{wip}} wip",
+    "blogPosts": "{{drafts}} drafts · {{views}} views",
+    "messages": "{{total}} total · {{pendingApps}} pending apps",
+    "docs": "{{published}} published · {{draft}} draft"
+  },
+  "secondary": {
+    "docsPublished": "Docs Published",
+    "applications": "Applications",
+    "pendingOfTotal": "{{pending}} pending / {{total}}",
+    "seriesCollections": "Series & Collections",
+    "mediaAssets": "Media Assets",
+    "pendingApprovals": "Pending Approvals"
+  },
+  "chart": {
+    "count": "Count",
+    "users": "Users",
+    "projects": "Projects",
+    "posts": "Posts",
+    "docs": "Docs",
+    "messages": "Messages",
+    "applications": "Applications"
+  }
+}

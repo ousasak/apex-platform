@@ -1,0 +1,243 @@
+{
+  "common": {
+    "cancel": "បោះបង់",
+    "delete": "លុប",
+    "deleting": "កំពុងលុប...",
+    "edit": "កែសម្រួល",
+    "saving": "កំពុងរក្សាទុក..."
+  },
+  "status": {
+    "active": "សកម្ម",
+    "inactive": "អសកម្ម",
+    "banned": "ត្រូវបានហាមឃាត់"
+  },
+  "roles": {
+    "superadmin": "អ្នកគ្រប់គ្រងជាន់ខ្ពស់",
+    "admin": "អ្នកគ្រប់គ្រង",
+    "editor": "អ្នកកែសម្រួល",
+    "moderator": "អ្នកសម្របសម្រួល",
+    "author": "អ្នកនិពន្ធ",
+    "member": "សមាជិក",
+    "user": "អ្នកប្រើប្រាស់",
+    "viewer": "អ្នកទស្សនា",
+    "guest": "ភ្ញៀវ"
+  },
+  "permissions": {
+    "title": "សិទ្ធិលើធនធាន",
+    "subtitle": "គ្រប់គ្រងអ្វីដែល <strong>{{name}}</strong> អាចធ្វើដោយផ្ទាល់។",
+    "save": "រក្សាទុកសិទ្ធិ",
+    "table": {
+      "resource": "ធនធាន"
+    },
+    "actions": {
+      "create": "បង្កើត",
+      "update": "ធ្វើបច្ចុប្បន្នភាព",
+      "delete": "លុប"
+    },
+    "resources": {
+      "projects": "គម្រោង",
+      "categories": "ប្រភេទ",
+      "tags": "ស្លាក",
+      "team_members": "សមាជិកក្រុម",
+      "blog_posts": "អត្ថបទប្លុក",
+      "media": "បណ្ណាល័យមេឌៀ",
+      "docs": "ឯកសារណែនាំ"
+    }
+  },
+  "publicProfile": {
+    "pageTitle": "{{name}} (@{{username}}) | APEX",
+    "fallbackTitle": "ប្រវត្តិរូបសមាជិក – APEX",
+    "loading": "កំពុងផ្ទុកប្រវត្តិរូប…",
+    "notFoundTitle": "រកមិនឃើញប្រវត្តិរូប",
+    "notFoundMessage": "ឈ្មោះអ្នកប្រើប្រាស់នេះមិនមានទេ ឬគណនីមិនសកម្ម។",
+    "loadFailedTitle": "មិនអាចផ្ទុកប្រវត្តិរូបបានទេ",
+    "loadFailedMessage": "ម៉ាស៊ីនមេមានបញ្ហាក្នុងការផ្ទុកប្រវត្តិរូបនេះ។ សូមផ្ទុកទំព័រឡើងវិញ ឬព្យាយាមម្តងទៀតបន្តិចទៀត។",
+    "joined": "បានចូលរួមនៅ {{date}}",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "tabs": {
+      "posts": "អត្ថបទប្លុក",
+      "projects": "គម្រោង"
+    },
+    "filters": {
+      "all": "ទាំងអស់",
+      "uncategorized": "គ្មានចំណាត់ថ្នាក់"
+    },
+    "badges": {
+      "series": "ស៊េរី",
+      "collection": "បណ្តុំ"
+    },
+    "empty": {
+      "postsTitle": "មិនទាន់មានអត្ថបទដែលបានបោះពុម្ពផ្សាយទេ",
+      "postsMessage": "នៅពេលសមាជិកនេះបោះពុម្ពផ្សាយអត្ថបទ វានឹងបង្ហាញនៅទីនេះ។",
+      "projectsTitle": "មិនទាន់មានគម្រោងទេ",
+      "projectsMessage": "គម្រោងដែលបានបង្កើត ឬភ្ជាប់ជាមួយសមាជិកនេះនឹងបង្ហាញនៅទីនេះ។"
+    }
+  },
+  "admin": {
+    "title": "អ្នកប្រើប្រាស់",
+    "subtitle": "គ្រប់គ្រងអ្នកប្រើប្រាស់ដែលបានចុះឈ្មោះទាំងអស់ និងសិទ្ធិរបស់ពួកគេ",
+    "addUser": "បន្ថែមអ្នកប្រើប្រាស់",
+    "stats": {
+      "totalUsers": "អ្នកប្រើប្រាស់សរុប",
+      "newThisMonth": "ថ្មីក្នុងខែនេះ"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកតាមឈ្មោះ ឈ្មោះគណនី ឬអ៊ីមែល...",
+      "allRoles": "តួនាទីទាំងអស់",
+      "allStatus": "ស្ថានភាពទាំងអស់"
+    },
+    "actions": {
+      "deleteSelected": "លុប ({{count}})"
+    },
+    "table": {
+      "user": "អ្នកប្រើប្រាស់",
+      "role": "តួនាទី",
+      "status": "ស្ថានភាព",
+      "joined": "បានចូលរួម",
+      "actions": "សកម្មភាព",
+      "loading": "កំពុងផ្ទុកអ្នកប្រើប្រាស់...",
+      "empty": "រកមិនឃើញអ្នកប្រើប្រាស់ទេ"
+    },
+    "createModal": {
+      "title": "បន្ថែមអ្នកប្រើប្រាស់ថ្មី",
+      "fullName": "ឈ្មោះពេញ",
+      "fullNamePlaceholder": "សុខ ដារ៉ា",
+      "username": "ឈ្មោះអ្នកប្រើប្រាស់",
+      "usernamePlaceholder": "sokdara",
+      "email": "អ៊ីមែល",
+      "emailPlaceholder": "sokdara@example.com",
+      "password": "ពាក្យសម្ងាត់",
+      "passwordPlaceholder": "••••••••",
+      "role": "តួនាទី",
+      "selectRole": "ជ្រើសរើសតួនាទី",
+      "creating": "កំពុងបង្កើត...",
+      "submit": "បង្កើតអ្នកប្រើប្រាស់"
+    },
+    "deleteModal": {
+      "title": "លុបអ្នកប្រើប្រាស់",
+      "confirmMessage": "តើអ្នកប្រាកដជាចង់លុប <strong>{{name}}</strong> មែនទេ? សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។"
+    },
+    "confirm": {
+      "bulkDelete": "លុបអ្នកប្រើប្រាស់ចំនួន {{count}} នាក់?"
+    },
+    "toasts": {
+      "userActivated": "បានធ្វើឱ្យអ្នកប្រើប្រាស់សកម្ម",
+      "userDeactivated": "បានធ្វើឱ្យអ្នកប្រើប្រាស់អសកម្ម",
+      "updateFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពអ្នកប្រើប្រាស់",
+      "userCreated": "បានបង្កើតអ្នកប្រើប្រាស់ដោយជោគជ័យ!",
+      "createFailed": "បរាជ័យក្នុងការបង្កើតអ្នកប្រើប្រាស់",
+      "userDeleted": "បានលុបអ្នកប្រើប្រាស់ដោយជោគជ័យ",
+      "deleteFailed": "បរាជ័យក្នុងការលុបអ្នកប្រើប្រាស់",
+      "bulkDeleted": "បានលុបអ្នកប្រើប្រាស់ចំនួន {{count}} នាក់",
+      "bulkDeleteFailed": "ការលុបខ្លះបានបរាជ័យ"
+    }
+  },
+  "edit": {
+    "notFound": "រកមិនឃើញអ្នកប្រើប្រាស់",
+    "backToUsers": "ត្រឡប់ទៅបញ្ជីអ្នកប្រើប្រាស់",
+    "breadcrumbUsers": "អ្នកប្រើប្រាស់",
+    "breadcrumbEdit": "កែសម្រួលអ្នកប្រើប្រាស់",
+    "card": {
+      "joined": "បានចូលរួម",
+      "status": "ស្ថានភាព",
+      "bio": "ជីវប្រវត្តិសង្ខេប"
+    },
+    "actions": {
+      "activateUser": "ធ្វើឱ្យអ្នកប្រើប្រាស់សកម្ម",
+      "deactivateUser": "ធ្វើឱ្យអ្នកប្រើប្រាស់អសកម្ម",
+      "deleteUser": "លុបអ្នកប្រើប្រាស់"
+    },
+    "form": {
+      "title": "ព័ត៌មានអ្នកប្រើប្រាស់",
+      "fullName": "ឈ្មោះពេញ",
+      "fullNamePlaceholder": "បញ្ចូលឈ្មោះពេញ",
+      "username": "ឈ្មោះអ្នកប្រើប្រាស់",
+      "usernamePlaceholder": "ឈ្មោះគណនីតែមួយគត់",
+      "email": "អាសយដ្ឋានអ៊ីមែល",
+      "emailPlaceholder": "បញ្ចូលអ៊ីមែល",
+      "role": "តួនាទី",
+      "selectRole": "ជ្រើសរើសតួនាទី",
+      "saveChanges": "រក្សាទុកការផ្លាស់ប្តូរ"
+    },
+    "deleteModal": {
+      "title": "លុបអ្នកប្រើប្រាស់",
+      "confirmMessage": "តើអ្នកប្រាកដជាចង់លុប <strong>{{name}}</strong> មែនទេ?"
+    },
+    "toasts": {
+      "permissionsSaved": "បានរក្សាទុកសិទ្ធិដោយជោគជ័យ!",
+      "permissionsSaveFailed": "បរាជ័យក្នុងការរក្សាទុកសិទ្ធិ",
+      "userUpdated": "បានធ្វើបច្ចុប្បន្នភាពអ្នកប្រើប្រាស់ដោយជោគជ័យ!",
+      "updateFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាព",
+      "userActivated": "បានធ្វើឱ្យអ្នកប្រើប្រាស់សកម្ម",
+      "userDeactivated": "បានធ្វើឱ្យអ្នកប្រើប្រាស់អសកម្ម",
+      "updateUserFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពអ្នកប្រើប្រាស់",
+      "userDeleted": "បានលុបអ្នកប្រើប្រាស់ដោយជោគជ័យ",
+      "deleteFailed": "បរាជ័យក្នុងការលុបអ្នកប្រើប្រាស់"
+    }
+  },
+  "profile": {
+    "avatarAlt": "ប្រវត្តិរូប",
+    "avatarFallbackInitial": "U",
+    "avatar": {
+      "change": "ប្តូរ",
+      "uploading": "កំពុងផ្ទុកឡើង..."
+    },
+    "tabs": {
+      "editProfile": "កែសម្រួលប្រវត្តិរូប",
+      "passwordSecurity": "ពាក្យសម្ងាត់ និងសុវត្ថិភាព"
+    },
+    "fields": {
+      "fullName": "ឈ្មោះពេញ",
+      "username": "ឈ្មោះអ្នកប្រើប្រាស់",
+      "bio": "ជីវប្រវត្តិសង្ខេប",
+      "bioPlaceholder": "ការពិពណ៌នាសង្ខេបអំពីខ្លួនអ្នក...",
+      "githubUrl": "តំណភ្ជាប់ GitHub",
+      "githubPlaceholder": "https://github.com/...",
+      "linkedinUrl": "តំណភ្ជាប់ LinkedIn",
+      "linkedinPlaceholder": "https://linkedin.com/in/..."
+    },
+    "actions": {
+      "saveProfile": "រក្សាទុកប្រវត្តិរូប"
+    },
+    "password": {
+      "current": "ពាក្យសម្ងាត់បច្ចុប្បន្ន",
+      "new": "ពាក្យសម្ងាត់ថ្មី",
+      "confirm": "បញ្ជាក់ពាក្យសម្ងាត់ថ្មី",
+      "changing": "កំពុងប្តូរពាក្យសម្ងាត់...",
+      "submit": "ប្តូរពាក្យសម្ងាត់"
+    },
+    "toasts": {
+      "avatarUpdated": "បានធ្វើបច្ចុប្បន្នភាពរូបភាពប្រវត្តិរូបដោយជោគជ័យ!",
+      "avatarUploadFailed": "បរាជ័យក្នុងការផ្ទុកឡើងរូបភាពប្រវត្តិរូប",
+      "profileUpdated": "បានធ្វើបច្ចុប្បន្នភាពប្រវត្តិរូបដោយជោគជ័យ!",
+      "profileUpdateFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពប្រវត្តិរូប",
+      "passwordMismatch": "ការបញ្ជាក់ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ",
+      "passwordChanged": "បានប្តូរពាក្យសម្ងាត់ដោយជោគជ័យ!",
+      "passwordChangeFailed": "បរាជ័យក្នុងការប្តូរពាក្យសម្ងាត់"
+    }
+  },
+  "memberSettings": {
+    "title": "ការកំណត់",
+    "appearance": {
+      "title": "រូបរាង",
+      "darkMode": "មុខងារងងឹត",
+      "darkModeDescription": "ប្តូររវាងរូបរាងភ្លឺ និងងងឹត"
+    }
+  },
+  "notifications": {
+    "title": "ការជូនដំណឹង",
+    "subtitle": "តាមដានព័ត៌មានថ្មីៗ និងសកម្មភាពចុងក្រោយរបស់អ្នក",
+    "markAllRead": "សម្គាល់ថាបានអានទាំងអស់",
+    "defaultTitle": "ការជូនដំណឹង",
+    "empty": {
+      "title": "មិនទាន់មានការជូនដំណឹងទេ",
+      "message": "នៅពេលអ្នកទទួលបានការជូនដំណឹង ឬបច្ចុប្បន្នភាព វានឹងបង្ហាញនៅទីនេះ។"
+    },
+    "actions": {
+      "markAsRead": "សម្គាល់ថាបានអាន"
+    }
+  }
+}

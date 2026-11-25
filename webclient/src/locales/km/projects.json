@@ -1,0 +1,262 @@
+{
+  "common": {
+    "brandName": "APEX",
+    "featured": "លេចធ្លោ",
+    "openSource": "កូដបើកចំហ",
+    "oss": "កូដបើកចំហ",
+    "liveDemo": "សាកល្បងផ្ទាល់",
+    "cancel": "បោះបង់",
+    "save": "រក្សាទុក",
+    "saving": "កំពុងរក្សាទុក...",
+    "create": "បង្កើត",
+    "creating": "កំពុងបង្កើត...",
+    "edit": "កែសម្រួល",
+    "delete": "លុប",
+    "deleting": "កំពុងលុប..."
+  },
+  "status": {
+    "active": "សកម្ម",
+    "completed": "បានបញ្ចប់",
+    "in_progress": "កំពុងដំណើរការ",
+    "wip": "កំពុងដំណើរការ",
+    "workInProgress": "កំពុងអភិវឌ្ឍ",
+    "planned": "បានគ្រោងទុក",
+    "archived": "បានទុកក្នុងបណ្ណសារ",
+    "draft": "ព្រាង",
+    "published": "បានផ្សព្វផ្សាយ"
+  },
+  "public": {
+    "hero": {
+      "eyebrow": "ផលប័ត្រស្នាដៃ",
+      "titlePrefix": "គម្រោង",
+      "titleHighlight": "របស់យើង",
+      "subtitle": "កម្មវិធីជាក់ស្តែងដែលបង្កើតឡើងដោយទឹកចិត្ត — ចាប់ពីគំនិតរហូតដល់ការដាក់ឱ្យដំណើរការ។"
+    },
+    "stats": {
+      "totalProjects": "គម្រោងសរុប",
+      "active": "សកម្ម",
+      "openSource": "កូដបើកចំហ"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកគម្រោង...",
+      "allTags": "ស្លាកទាំងអស់",
+      "allStatus": "ស្ថានភាពទាំងអស់",
+      "clearFilters": "សម្អាតការចម្រាញ់",
+      "showingOne": "បង្ហាញ {{count}} គម្រោង",
+      "showingOther": "បង្ហាញ {{count}} គម្រោង",
+      "showingOneFiltered": "បង្ហាញ {{count}} គម្រោង តាមការចម្រាញ់",
+      "showingOtherFiltered": "បង្ហាញ {{count}} គម្រោង តាមការចម្រាញ់"
+    },
+    "featured": {
+      "eyebrow": "លេចធ្លោ",
+      "titlePrefix": "គម្រោង",
+      "titleHighlight": "លេចធ្លោ"
+    },
+    "grid": {
+      "eyebrow": "ស្នាដៃទាំងអស់",
+      "titlePrefix": "ស្វែងយល់ពី",
+      "titleHighlight": "បណ្តុំគម្រោង"
+    },
+    "actions": {
+      "viewProject": "មើលគម្រោង",
+      "source": "កូដប្រភព",
+      "details": "ព័ត៌មានលម្អិត →"
+    },
+    "empty": {
+      "title": "រកមិនឃើញគម្រោងទេ",
+      "message": "សូមព្យាយាមកែសម្រួលពាក្យស្វែងរក ឬការចម្រាញ់របស់អ្នក ដើម្បីស្វែងរកអ្វីដែលអ្នកត្រូវការ។"
+    }
+  },
+  "detail": {
+    "defaultTitle": "គម្រោង",
+    "documentTitle": "{{title}} – APEX",
+    "notFoundDocumentTitle": "រកមិនឃើញគម្រោង – APEX",
+    "backToProjects": "ត្រឡប់ទៅគម្រោង",
+    "viewSource": "មើលកូដប្រភព",
+    "noDescription": "មិនទាន់មានការពិពណ៌នាលម្អិតនៅឡើយទេ។",
+    "sidebar": {
+      "techStack": "បច្ចេកវិទ្យាប្រើប្រាស់",
+      "projectInfo": "ព័ត៌មានគម្រោង",
+      "status": "ស្ថានភាព",
+      "license": "អាជ្ញាប័ណ្ណ",
+      "created": "បានបង្កើត",
+      "creator": "អ្នកបង្កើត",
+      "links": "តំណភ្ជាប់",
+      "githubRepository": "ឃ្លាំងកូដ GitHub",
+      "noExternalLinks": "មិនមានតំណភ្ជាប់ខាងក្រៅទេ"
+    },
+    "allProjects": "គម្រោងទាំងអស់",
+    "contactCta": "ចាប់អារម្មណ៍មែនទេ? ទាក់ទងមកយើង",
+    "notFound": {
+      "title": "រកមិនឃើញគម្រោង",
+      "message": "គម្រោងដែលអ្នកកំពុងស្វែងរកមិនមានទេ ឬត្រូវបានលុបចោល។"
+    }
+  },
+  "admin": {
+    "title": "គម្រោង",
+    "subtitle": "គ្រប់គ្រងផលប័ត្រ និងបង្ហាញគម្រោងរបស់ក្រុមអ្នក",
+    "newProject": "គម្រោងថ្មី",
+    "stats": {
+      "total": "សរុប"
+    },
+    "filters": {
+      "searchPlaceholder": "ស្វែងរកតាមចំណងជើង...",
+      "allStatus": "ស្ថានភាពទាំងអស់",
+      "allProjects": "គម្រោងទាំងអស់",
+      "featuredOnly": "តែគម្រោងលេចធ្លោ",
+      "allCollections": "បណ្តុំទាំងអស់"
+    },
+    "bulkDelete": "លុប ({{count}})",
+    "confirmBulkDelete": "តើអ្នកពិតជាចង់លុបគម្រោងចំនួន {{count}} មែនទេ?",
+    "loading": "កំពុងផ្ទុកគម្រោង...",
+    "empty": "រកមិនឃើញគម្រោងទេ",
+    "table": {
+      "selectAll": "ជ្រើសរើសគម្រោងទាំងអស់",
+      "selectProject": "ជ្រើសរើស {{title}}",
+      "project": "គម្រោង",
+      "status": "ស្ថានភាព",
+      "featured": "លេចធ្លោ",
+      "created": "បានបង្កើត",
+      "actions": "សកម្មភាព"
+    },
+    "actions": {
+      "feature": "ដាក់ជាគម្រោងលេចធ្លោ",
+      "unfeature": "ដកចេញពីគម្រោងលេចធ្លោ"
+    },
+    "deleteModal": {
+      "title": "លុបគម្រោង",
+      "message": "តើអ្នកពិតជាចង់លុបគម្រោង <strong>{{title}}</strong> មែនទេ?"
+    },
+    "toasts": {
+      "featured": "បានដាក់គម្រោងជាលេចធ្លោ!",
+      "unfeatured": "បានដកគម្រោងចេញពីលេចធ្លោ",
+      "updateFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាព",
+      "deleted": "បានលុបគម្រោង",
+      "deleteFailed": "បរាជ័យក្នុងការលុប",
+      "bulkDeleted": "បានលុបគម្រោងចំនួន {{count}}",
+      "bulkDeleteFailed": "ការលុបខ្លះបានបរាជ័យ"
+    }
+  },
+  "form": {
+    "breadcrumb": {
+      "new": "គម្រោងថ្មី",
+      "edit": "កែសម្រួលគម្រោង"
+    },
+    "header": {
+      "createTitle": "បង្កើតគម្រោង",
+      "editTitle": "កែសម្រួលគម្រោង",
+      "createSubtitle": "បន្ថែមគម្រោងថ្មីទៅក្នុងផលប័ត្ររបស់អ្នក",
+      "editSubtitle": "ធ្វើបច្ចុប្បន្នភាពព័ត៌មានលម្អិត និងការកំណត់គម្រោង"
+    },
+    "sections": {
+      "basicInfo": "ព័ត៌មានមូលដ្ឋាន",
+      "links": "តំណភ្ជាប់",
+      "coverImage": "រូបភាពក្រប",
+      "settings": "ការកំណត់",
+      "collection": "បណ្តុំ",
+      "tags": "ស្លាក"
+    },
+    "fields": {
+      "title": "ចំណងជើង",
+      "slug": "Slug",
+      "shortDescription": "ការពិពណ៌នាខ្លី",
+      "longDescription": "ការពិពណ៌នាលម្អិត",
+      "demoUrl": "URL សាកល្បង",
+      "repoUrl": "URL ឃ្លាំងកូដ",
+      "uploadTo": "ផ្ទុកឡើងទៅ",
+      "status": "ស្ថានភាព",
+      "featuredHint": "បង្ហាញលើទំព័រដើម",
+      "openSourceHint": "កូដបើកចំហជាសាធារណៈ",
+      "none": "គ្មាន"
+    },
+    "placeholders": {
+      "title": "គម្រោងដ៏អស្ចារ្យរបស់ខ្ញុំ",
+      "slug": "my-awesome-project",
+      "shortDescription": "សេចក្តីសង្ខេបខ្លីអំពីគម្រោង...",
+      "demoUrl": "https://demo.example.com",
+      "repoUrl": "https://github.com/user/repo"
+    },
+    "storage": {
+      "supabase": "Supabase",
+      "cloudinary": "Cloudinary"
+    },
+    "coverImage": {
+      "previewAlt": "ការមើលរូបភាពក្របជាមុន",
+      "remove": "ដកចេញ",
+      "uploadPrompt": "ចុចដើម្បីផ្ទុករូបភាពក្របឡើង",
+      "uploadHint": "PNG, JPG អតិបរមា 2MB"
+    },
+    "actions": {
+      "newCollection": "ថ្មី",
+      "createProject": "បង្កើតគម្រោង",
+      "updateProject": "ធ្វើបច្ចុប្បន្នភាពគម្រោង"
+    },
+    "empty": {
+      "noTags": "មិនមានស្លាកទេ"
+    },
+    "toasts": {
+      "loadFailed": "បរាជ័យក្នុងការផ្ទុកគម្រោង",
+      "collectionCreated": "បានបង្កើតបណ្តុំ!",
+      "collectionCreateFailed": "បរាជ័យក្នុងការបង្កើតបណ្តុំ",
+      "updated": "បានធ្វើបច្ចុប្បន្នភាពគម្រោងដោយជោគជ័យ!",
+      "created": "បានបង្កើតគម្រោងដោយជោគជ័យ!",
+      "saveFailed": "បរាជ័យក្នុងការរក្សាទុកគម្រោង"
+    }
+  },
+  "collections": {
+    "title": "បណ្តុំគម្រោង",
+    "subtitle": "ចាត់ក្រុមគម្រោងទៅជាបណ្តុំ",
+    "newCollection": "បណ្តុំថ្មី",
+    "searchPlaceholder": "ស្វែងរកបណ្តុំ...",
+    "loading": "កំពុងផ្ទុកបណ្តុំ...",
+    "empty": "រកមិនឃើញបណ្តុំទេ",
+    "table": {
+      "name": "ឈ្មោះ",
+      "slug": "Slug",
+      "description": "ការពិពណ៌នា",
+      "projects": "គម្រោង",
+      "created": "បានបង្កើត",
+      "actions": "សកម្មភាព"
+    },
+    "modal": {
+      "newTitle": "បណ្តុំថ្មី",
+      "editTitle": "កែសម្រួលបណ្តុំ"
+    },
+    "fields": {
+      "name": "ឈ្មោះ",
+      "slug": "Slug",
+      "description": "ការពិពណ៌នា"
+    },
+    "placeholders": {
+      "name": "ឧ. កម្មវិធីទូរស័ព្ទ",
+      "nameInline": "ឈ្មោះបណ្តុំ",
+      "slug": "mobile-apps",
+      "description": "ការពិពណ៌នាអំពីបណ្តុំ..."
+    },
+    "deleteModal": {
+      "title": "លុបបណ្តុំ",
+      "message": "តើអ្នកចង់លុបបណ្តុំ <strong>{{name}}</strong> មែនទេ? គម្រោងនឹងត្រូវបានរក្សាទុក ហើយក្លាយជាគ្មានប្រភេទ។"
+    },
+    "toasts": {
+      "loadFailed": "បរាជ័យក្នុងការផ្ទុកបណ្តុំ",
+      "created": "បានបង្កើតបណ្តុំ",
+      "updated": "បានធ្វើបច្ចុប្បន្នភាពបណ្តុំ",
+      "saveFailed": "ការរក្សាទុកបានបរាជ័យ",
+      "deleted": "បានលុបបណ្តុំ",
+      "deleteFailed": "ការលុបបានបរាជ័យ"
+    }
+  },
+  "collectionDetail": {
+    "badge": "បណ្តុំ",
+    "documentTitle": "{{name}} – @{{username}} | APEX",
+    "fallbackDocumentTitle": "បណ្តុំ – APEX",
+    "notFound": {
+      "title": "រកមិនឃើញបណ្តុំ",
+      "message": "បណ្តុំនេះមិនមានទេ ឬមិនមានទំព័រសាធារណៈឡើយ។"
+    },
+    "empty": {
+      "title": "មិនមានគម្រោងក្នុងបណ្តុំនេះទេ",
+      "message": "គម្រោងនឹងបង្ហាញនៅទីនេះនៅពេលត្រូវបានបញ្ចូលទៅក្នុងបណ្តុំនេះ។"
+    }
+  }
+}
