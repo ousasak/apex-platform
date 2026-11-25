@@ -1,39 +1,20 @@
 <div align="center">
 
-<img src="webclient/public/favicon.svg" alt="APEX Logo" width="120" />
+# Apex Platform
 
-# APEX Website
+**A modern full-stack portfolio & CMS platform**
 
-**A modern full-stack team portfolio & CMS platform**
-
-[![Nuxt](https://img.shields.io/badge/Nuxt-3-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)](https://nuxt.com/)
-[![Vue.js](https://img.shields.io/badge/Vue.js-3.5-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-**"ជីវិតដែលរស់នៅដើម្បីអ្នកដទៃ ទើបជាជីវិតដែលមានតម្លៃ"**  
-*"A life lived for others is the only life worth living."*
-
-[Features](#-features) · [Tech Stack](#-tech-stack) · [Getting Started](#-getting-started) · [Architecture](#-architecture) · [API Reference](#-api-reference) · [Team](#-team)
+[Features](#-features) · [Tech Stack](#-tech-stack) · [Getting Started](#-getting-started) · [Architecture](#-architecture) · [API Reference](#-api-reference)
 
 </div>
-
----
-
-## 🚀 Our Mission
-
-> *"Learning to be a pillar for one another, as we strive to become a leading student-driven tech team, inspiring the next generation of Cambodian developers and proving that world-class software can be built anywhere."*
-
-### 💎 Our Core Principles
-
-| Principle | Description |
-|:----------|:------------|
-| 🧠 **Common Thinking** | Harnessing collective wisdom to solve complex problems. |
-| 🤝 **Common Action** | Working in unity to transform ideas into reality. |
-| 🛡️ **Common Responsibility** | Standing together for every outcome we deliver. |
 
 ---
 
@@ -46,9 +27,11 @@
 ### 🌐 Public Website
 - **Home** — Hero section with animated starfield & galaxy background
 - **Projects** — Portfolio showcase with tag filtering & slug-based URLs
-- **Blog** — Full CMS with categories, syntax-highlighted code blocks & comments
-- **Team** — Member profiles with role badges & social links
-- **Join Us** — Application form with status tracking
+- **Blog** — Full CMS with categories, syntax-highlighted code blocks
+- **Skills & Stack** — Tech skills with categories and proficiency levels
+- **Experience** — Work & education timeline
+- **Services** — Offered services showcase
+- **Resume / CV** — PDF resume upload & public download
 - **Contact** — Message submission with admin inbox
 
 </td>
@@ -61,6 +44,7 @@
 - **Media Library** — Upload, browse & manage media files
 - **User Management** — Role-based access control (Admin / Member)
 - **Activity Logs** — Complete audit trail of all admin actions
+- **Portfolio Management** — Manage Skills, Experience, Services & Resume
 
 </td>
 </tr>
@@ -71,8 +55,8 @@
 - **Dark / Light Mode** — Smooth theme toggle with persistence
 - **Space Theme** — Animated starfield, galaxy effects & glassmorphism
 - **Fully Responsive** — Mobile-first design across all pages
-- **Animations** — AOS scroll animations, GSAP transitions & custom keyframes
-- **Toast Notifications** — Store-driven auto-dismiss notification system
+- **Animations** — AOS scroll animations & custom keyframes
+- **Toast Notifications** — Auto-dismiss notification system
 
 </td>
 <td>
@@ -82,7 +66,7 @@
 - **Role-Based Access** — Admin & Member route guards
 - **Password Reset** — Complete forgot/reset password flow
 - **Profile Management** — Avatar upload & password change
-- **Real-Time Notifications** — 30-second polling for unread count
+- **Real-Time Notifications** — Polling for unread count
 
 </td>
 </tr>
@@ -96,17 +80,15 @@
 
 | Technology | Version | Purpose |
 |:-----------|:--------|:--------|
-| [Nuxt](https://nuxt.com/) | 3.x | Full-stack Vue framework (SSR, SEO, routing, auto-imports) |
-| [Vue.js](https://vuejs.org/) | 3.5 | Reactive UI framework (Composition API in `.vue` files) |
-| [Nitro](https://nitro.build/) | 2.x | Nuxt production server runtime |
+| [React](https://react.dev/) | 19.x | UI library (Hooks, Context API) |
+| [Vite](https://vitejs.dev/) | 5.x | Build tool & dev server |
+| [React Router](https://reactrouter.com/) | 7.x | Client-side routing with lazy loading |
 | [Tailwind CSS](https://tailwindcss.com/) | 3.4 | Utility-first CSS framework |
-| [Pinia](https://pinia.vuejs.org/) | 2.x | State management (auth, theme, notifications, UI) |
-| [Nuxt Router](https://nuxt.com/docs/getting-started/routing) | Built-in | File-based / custom routing with middleware and guards |
 | [Tiptap](https://tiptap.dev/) | 3.22 | Rich text editor (20+ extensions) |
 | [Chart.js](https://www.chartjs.org/) | 4.x | Dashboard analytics charts |
-| [GSAP](https://gsap.com/) | 3.12 | High-performance animations |
 | [AOS](https://michalsnik.github.io/aos/) | 2.3 | Scroll reveal animations |
 | [Axios](https://axios-http.com/) | 1.6 | HTTP client with interceptors |
+| [i18next](https://www.i18next.com/) | — | Internationalization (EN / KM) |
 
 ### Backend
 
@@ -116,14 +98,14 @@
 | [PHP](https://www.php.net/) | 8.3 | Server-side runtime |
 | [Sanctum](https://laravel.com/docs/sanctum) | 4.x | Token-based SPA authentication |
 | [PostgreSQL](https://www.postgresql.org/) | 16 | Relational database |
-| [Eloquent ORM](https://laravel.com/docs/eloquent) | — | Database abstraction (13 models) |
+| [Eloquent ORM](https://laravel.com/docs/eloquent) | — | Database abstraction |
 
 ### DevOps
 
 | Technology | Purpose |
 |:-----------|:--------|
 | [Docker](https://www.docker.com/) | Containerized development & deployment |
-| [Docker Compose](https://docs.docker.com/compose/) | Multi-container orchestration (4 services) |
+| [Docker Compose](https://docs.docker.com/compose/) | Multi-container orchestration |
 | [pgAdmin 4](https://www.pgadmin.org/) | Database GUI management |
 
 ---
@@ -134,14 +116,15 @@
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
 - [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) 20+ (for local webclient dev)
 
 ### Installation
 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/apex-website.git
-cd apex-website
+git clone https://github.com/ousasak/apex-platform.git
+cd apex-platform
 ```
 
 **2. Configure environment**
@@ -195,25 +178,11 @@ npm run preview
 
 ### Webclient environment variables
 
-Set these in `webclient/.env` (or deployment environment):
+Set these in `webclient/.env`:
 
 ```bash
-NUXT_PUBLIC_API_URL=http://localhost:8003/api
-NUXT_PUBLIC_SITE_URL=http://localhost:3000
-```
-
-Production (custom domains):
-
-```bash
-# Backend (Render / server .env)
-APP_URL=https://www.api.apex-team.space
-FRONTEND_URL=https://www.apex-team.space
-SITE_URL=https://www.apex-team.space
-SANCTUM_STATEFUL_DOMAINS=www.apex-team.space,apex-team.space
-
-# Webclient (see webclient/.env.production)
-NUXT_PUBLIC_SITE_URL=https://www.apex-team.space
-BACKEND_URL=https://www.api.apex-team.space
+VITE_API_URL=http://localhost:8003/api
+VITE_SITE_URL=http://localhost:3000
 ```
 
 ### Useful Commands
@@ -252,8 +221,8 @@ docker exec -it apex_postgres psql -U apex_user -d apex_db
 │  │  Webclient  │  │   Backend    │  │     PostgreSQL       │ │
 │  │  React +    │  │  Laravel 11  │  │     16-alpine        │ │
 │  │  Vite       │──│  PHP 8.3 FPM │──│                     │ │
-│  │  :3000       │  │  :8003       │  │  :5432              │ │
-│  │  Node 20     │  │  Sanctum     │  │  apex_db            │ │
+│  │  :3000      │  │  :8003       │  │  :5432              │ │
+│  │  Node 20    │  │  Sanctum     │  │  apex_db            │ │
 │  └─────────────┘  └──────────────┘  └─────────────────────┘ │
 │                                       │                      │
 │                    ┌──────────────┐    │                      │
@@ -266,39 +235,43 @@ docker exec -it apex_postgres psql -U apex_user -d apex_db
 ### Project Structure
 
 ```
-apex-website/
+apex-platform/
 ├── docker-compose.yml          # Container orchestration
 │
-├── webclient/                  # Web client application
-
-│   ├── app/                    # Nuxt app-level config (router options)
-│   ├── composables/            # Auto-imported Nuxt composables (useApi, useAPEXSeo)
-│   ├── plugins/                # Nuxt plugins (AOS, router guards)
+├── webclient/                  # React + Vite frontend
 │   ├── src/
+│   │   ├── api/                # Axios client & interceptors
 │   │   ├── assets/             # Styles, fonts, images
-│   │   ├── components/         # Reusable Vue components
-│   │   ├── layouts/            # Public, Auth, Admin layouts
-│   │   ├── stores/             # Pinia stores (auth, theme, UI, notifications)
-│   │   └── views/              # Route view components
+│   │   ├── components/         # Reusable React components
+│   │   ├── contexts/           # React Context providers
+│   │   ├── pages/              # Route page components
+│   │   │   ├── public/         # Public pages (Home, About, Blog...)
+│   │   │   ├── admin/          # Admin dashboard pages
+│   │   │   ├── skills/         # Skills admin page
+│   │   │   ├── experience/     # Experience admin page
+│   │   │   ├── services/       # Services admin page
+│   │   │   └── resume/         # Resume admin page
+│   │   ├── routes/             # AppRoutes with lazy loading
+│   │   ├── services/           # API service layer
+│   │   └── lib/                # i18n, utilities
 │   ├── Dockerfile
-│   ├── nuxt.config.ts
+│   ├── vite.config.js
 │   └── package.json
 │
 ├── backend/                    # Laravel 11 API
 │   ├── app/
 │   │   ├── Http/
 │   │   │   ├── Controllers/    # API controllers
-│   │   │   ├── Middleware/      # Auth & role middleware
+│   │   │   ├── Middleware/     # Auth & role middleware
 │   │   │   ├── Requests/       # Form validation
 │   │   │   └── Resources/      # JSON API resources
-│   │   ├── Models/             # 13 Eloquent models
-│   │   ├── Notifications/      # Email & push notifications
-│   │   └── Providers/
+│   │   ├── Models/             # Eloquent models
+│   │   └── Notifications/      # Email & push notifications
 │   ├── database/
-│   │   ├── migrations/         # 14+ database migrations
+│   │   ├── migrations/         # Database migrations
 │   │   └── seeders/            # Sample data seeders
 │   ├── routes/
-│   │   └── api.php             # 60+ RESTful API routes
+│   │   └── api/                # RESTful API routes
 │   ├── Dockerfile
 │   └── composer.json
 │
@@ -323,9 +296,13 @@ GET    /api/projects/{slug}         # Get project by slug
 GET    /api/blog/posts              # List blog posts
 GET    /api/blog/posts/{slug}       # Get blog post by slug
 GET    /api/blog/categories         # List blog categories
+GET    /api/skills                  # List skills
+GET    /api/experiences             # List experiences
+GET    /api/services                # List services
 GET    /api/team                    # List team members
 GET    /api/tags                    # List all tags
 GET    /api/settings/public         # Public site settings
+GET    /api/resume/download         # Download resume PDF
 
 POST   /api/contact                 # Send contact message
 POST   /api/applications            # Submit application
@@ -356,17 +333,16 @@ GET    /api/admin/dashboard/activity    # Recent activity feed
        /api/admin/team                  # Team Members CRUD
        /api/admin/tags                  # Tags CRUD
        /api/admin/roles                 # Roles CRUD
+       /api/admin/skills                # Skills CRUD + reorder
+       /api/admin/experiences           # Experiences CRUD
+       /api/admin/services              # Services CRUD
+
+GET    /api/admin/resume/status         # Resume upload status
+POST   /api/admin/resume/upload         # Upload resume PDF
 
 GET    /api/admin/applications          # List applications
-PUT    /api/admin/applications/{id}     # Update application status
-
 GET    /api/admin/messages              # List messages
-PUT    /api/admin/messages/{id}/read    # Mark message as read
-
 POST   /api/admin/media/upload          # Upload media file
-GET    /api/admin/media                 # List media files
-DELETE /api/admin/media/{id}            # Delete media file
-
 GET    /api/admin/settings              # Get all settings
 PUT    /api/admin/settings              # Update settings
 GET    /api/admin/activity-logs         # View audit logs
@@ -393,38 +369,9 @@ GET    /api/admin/search                # Global admin search
 | **Plus Jakarta Sans** | Body text, headings, UI |
 | **Fira Code** | Code blocks, monospace |
 
-### Theme Features
-
-- **Glassmorphism** — Semi-transparent surfaces with backdrop blur
-- **Gradient Brand** — Violet → Cyan gradient across CTAs & accents
-- **Glow Effects** — Custom box-shadow utilities for neon-style highlights
-- **6 Custom Animations** — `float`, `glow-pulse`, `fade-in`, `slide-up`, `slide-down`, `spin-slow`
-
----
-
-## 🗃 Database Schema
-
-```
-13 tables:
-
-users ──────────┐
-roles ──────────┤
-team_members    │
-projects ───────┼── tags (many-to-many via project_tag)
-blog_posts ─────┼── blog_categories
-comments ───────┘
-applications
-messages
-media
-settings
-activity_logs
-```
-
 ---
 
 ## 🤝 Contributing
-
-Contributions are welcome! Here's how to get started:
 
 1. **Fork** the repository
 2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
@@ -434,7 +381,7 @@ Contributions are welcome! Here's how to get started:
 
 ### Development Guidelines
 
-- Follow [Vue.js Style Guide](https://vuejs.org/style-guide/) for frontend code
+- Follow [React best practices](https://react.dev/learn) for frontend code
 - Follow [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices) for backend code
 - Write meaningful commit messages
 - Keep PRs focused and concise
@@ -447,38 +394,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## 👥 Team
-
-<table>
-<tr>
-<td align="center">
-<b>Khat Vanna</b><br>
-<sub>Founder & Full-Stack Developer</sub>
-</td>
-<td align="center">
-<b>Rom Chamraeun</b><br>
-<sub>Co-Founder & Full-Stack Developer</sub>
-</td>
-<td align="center">
-<b>Phuem Norng</b><br>
-<sub>Co-Founder & Full-Stack Developer</sub>
-</td>
-<td align="center">
-<b>Pheun Seanghai</b><br>
-<sub>Co-Founder & Full-Stack Developer</sub>
-</td>
-</tr>
-</table>
-
----
-
 <div align="center">
 
-**Built with ❤️ by APEX**
-
-Phnom Penh, Cambodia 🇰🇭
-
-[![Made with Vue](https://img.shields.io/badge/Made_with-Vue.js-4FC08D?style=flat-square&logo=vuedotjs)](https://vuejs.org/)
+[![Made with React](https://img.shields.io/badge/Made_with-React-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 [![Powered by Laravel](https://img.shields.io/badge/Powered_by-Laravel-FF2D20?style=flat-square&logo=laravel)](https://laravel.com/)
 [![Runs on Docker](https://img.shields.io/badge/Runs_on-Docker-2496ED?style=flat-square&logo=docker)](https://www.docker.com/)
 
